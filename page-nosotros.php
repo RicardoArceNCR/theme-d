@@ -74,17 +74,28 @@ get_header(); // Header global de Divergentes — no modificar.
     <div>
       <p class="nos-hero__eyebrow">— Nosotros</p>
       <h1 class="nos-hero__title">
-        <span class="nos-hero__line">Quienes</span>
-        <span class="nos-hero__line nos-hero__line--alt">sostienen la</span>
-        <span class="nos-hero__line">redacción.</span>
+        <span class="nos-hero__line nos-hero__line--primary">Quienes</span>
+        <span class="nos-hero__line nos-hero__line--accent">sostienen la</span>
+        <span class="nos-hero__line nos-hero__line--primary">redacción.</span>
       </h1>
     </div>
     <div class="nos-hero__lede">
       <p>DIVERGENTES es un medio independiente que cubre Nicaragua y Centroamérica desde el exilio. Estamos organizados de forma remota desde cinco países. Aquí presentamos al equipo que hace posible cada investigación, video, boletín y producto digital.</p>
-      <dl class="nos-hero__stats">
-        <div><dt>Integrantes</dt><dd>21</dd></div>
-        <div><dt>Áreas de trabajo</dt><dd>07</dd></div>
-        <div><dt>Premios internacionales</dt><dd>+12</dd></div>
+      <dl class="nos-hero__stats" data-nos-stats>
+        <div class="nos-stat">
+          <dt class="nos-stat__label">Integrantes</dt>
+          <dd class="nos-stat__value" data-nos-count="21" data-nos-prefix="" data-nos-pad="2">00</dd>
+        </div>
+
+        <div class="nos-stat">
+          <dt class="nos-stat__label">Áreas de trabajo</dt>
+          <dd class="nos-stat__value" data-nos-count="7" data-nos-prefix="" data-nos-pad="2">00</dd>
+        </div>
+
+        <div class="nos-stat">
+          <dt class="nos-stat__label">Premios internacionales</dt>
+          <dd class="nos-stat__value" data-nos-count="12" data-nos-prefix="+" data-nos-pad="0">+00</dd>
+        </div>
       </dl>
     </div>
   </div>
