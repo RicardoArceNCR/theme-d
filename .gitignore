@@ -1,0 +1,58 @@
+# =============================================
+# .gitignore - Divergentes Theme (Optimizado)
+# =============================================
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+
+# Entorno de desarrollo
+.idea/
+.vscode/
+*.sublime-*
+
+# Node
+node_modules/
+dist/
+build/
+
+# ==================== MEDIA PESADA ====================
+# Videos (muy pesados)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Imágenes grandes
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+
+# Solo permitir SVGs
+!**/*.svg
+
+# Carpetas específicas de media
+**/media/animaciones/
+**/media/audios/
+**/media/videos/
+vocesnicaragua/media/images/*
+!vocesnicaragua/media/images/*.svg
+
+# Uploads y backups
+**/uploads/
+**/backup/
+**/backups/
+*.bak
+
+# Otros
+.cache/
+temp/
+*.sql
+*.sqlite
+.env
+wp-config.php

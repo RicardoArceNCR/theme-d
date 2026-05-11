@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+body {
+    font-family:'Gotham Pro' !important;
+  }
+
+header {
+    background: #101b2ff2;
+}
+.col-4.pt-1.social-i a {
+    font-size: 2rem;
+    color: #FFF;
+    padding-right: 10px;
+}
+section.h_hero {
+    background: url(../img/bg-landing-80.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: calc(100vh - 100px);
+  height: 100%;
+  width: 100%;
+  color: #FFFFFF;
+}
+section.h_hero .container {
+    padding-top: calc(50vh - 300.6px);
+}
+section.h_hero h3 {
+    font-family: 'Gotham Pro Medium';
+    font-size: 22px;
+    line-height: 1.252;
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+}
+section.h_hero p {
+    font-size: 22px;
+    line-height: 1.252;
+    max-width: 450px;
+    margin: 15px auto;
+}
+section.h_hero h1{
+    font-family: 'playfair_displaybold_italic';
+    font-size: 135px;
+    color: #E7E7E7;
+    font-weight: 700;
+}
+section.h_hero hr {
+    max-width: 547px;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 30px;
+}
+section.h_hero .btn-divergentes{
+    margin: 30px auto;
+}
+section.h_contenido {
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+/*mailchimp form*/
+div#mc_embed_signup {
+    padding: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+div#mc_embed_signup_scroll h2 {
+    font-family: 'Gotham Pro Medium';
+    font-size: 1.4rem;
+    color: #000;
+}
+/*end mailchimp form*/
+footer {
+    font-size: 18px;
+    height: 100px;
+    text-align: center;
+    background-color: #111B2F;
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+.btn-divergentes {
+    color: #FFFFFF;
+    max-width: 250px;
+    background-color: #DA575E;
+}
+.border-right {
+    border-right: solid 1px #000000 !important;
+}
+/*REPONSIVE*/
+@media (max-width: 575.98px) { 
+    section.h_hero {
+        min-height: 100vh;
+        height: 100%;
+    }
+    section.h_hero {
+        padding-top: 110px;
+    
+    }
+    section.h_hero .container {
+        padding-top: calc(50vh - 300px);
+    }
+    section.h_hero h1 {
+        font-size: 60px;
+    }
+    section.h_hero h3 {
+        font-size: 20px;
+    }
+    section.h_hero p {
+        font-size: 20px;
+    }
+
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    header .container {
+        max-width: 100% !important;
+}
+section.h_hero {
+    min-height: 100vh;
+    height: 100%;
+}
+section.h_hero {
+    padding-top: 110px;
+
+}
+section.h_hero h1 {
+    font-size: 90px;
+}
+section.h_hero h3 {
+    font-size: 16px;
+}
+section.h_hero p {
+    font-size: 20px;
+}
+}
+

@@ -1,0 +1,340 @@
+:root {
+  --maincolor: #2D2F58;
+  --maindark: #0E102B;
+  --red: #F03737;
+  --white: #FFFFFF;
+  --black: #000000;
+  --mainfont: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--mainfont);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--white);
+  overflow-x: hidden;
+  position: relative;
+  background-color: var(--maincolor);
+  background: linear-gradient(0deg, rgba(14,16,43,1) 0%, rgba(45,47,88,1) 100%);
+}
+.body-background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../media/images/voces_bg.jpg);
+  background-size: 100%;
+  mix-blend-mode: luminosity;
+  opacity: 0.04;
+}
+* {
+  line-height: 1.5em;
+}
+
+.no-scroll {
+  overflow: hidden !important;
+}
+
+.show-menu {
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 999;
+}
+.show-menu img {
+  width: 22px;
+}
+
+
+.header-logos {
+  margin: 2rem 0;
+}
+.header-logos .slick-track {
+  display: flex !important;
+}
+.header-logos .logo {
+  height: auto;
+  padding: 0 0.75rem;
+  display: flex !important;
+  align-items: center;
+}
+.header-logos .logo img {
+  opacity: 0.6;
+}
+.header-logos .logo img.noticias {
+  width: 76px;
+}
+.header-logos .logo img.nicaragua {
+  width: 40px;
+}
+.header-logos .logo img.divergentes {
+  width: 105px;
+}
+.header-logos .logo img.fuentes {
+  width: 110px;
+}
+.header-logos .logo img.lupa {
+  width: 70px;
+}
+.header-logos .logo img.onda {
+  width: 50px;
+}
+.header-logos .logo img.puntual {
+  width: 105px;
+}
+.header-logos .logo img.despacho {
+  width: 110px;
+}
+.header-logos .logo img.prensa {
+  width: 100px;
+}
+.header-logos .logo img.connectas {
+  width: 140px;
+}
+
+
+
+
+
+
+.menu-underlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  background-color: var(--maincolor);
+  z-index: 1000;
+}
+.menu-wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 100%;
+  background-color: var(--maindark);
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+}
+.menu-wrapper .menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+.menu-wrapper .menu-header .menu-logo {
+
+}
+.menu-wrapper .menu-header .menu-logo img {
+  width: 80%;
+}
+.menu-wrapper .menu-header .hide-menu {}
+
+.menu-wrapper .menu-header .hide-menu img {
+  width: 22px;
+}
+.menu-wrapper .menu-body {
+  padding: 0 1.5rem 2rem;
+  overflow-y: scroll;
+  position: relative;
+}
+/* width */
+.menu-wrapper .menu-body::-webkit-scrollbar {
+  width: 3px;
+}
+/* Track */
+.menu-wrapper .menu-body::-webkit-scrollbar-track {
+  background: #DDDDDD;
+  border-radius: 3px;
+}
+/* Handle */
+.menu-wrapper .menu-body::-webkit-scrollbar-thumb {
+  background: var(--red);
+  border-radius: 3px;
+}
+
+.menu-wrapper .menu-body .menu {
+  
+}
+.menu-wrapper .menu-body .menu li {
+  padding: 0.75rem 0 0;
+}
+.menu-wrapper .menu-body .menu li a {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3em;
+  color: var(--white);
+}
+
+
+
+
+
+
+
+p:not(:last-child) {
+  margin-bottom: 1.5em;
+}
+p.plug-phones {
+  font-size: 11px;
+  text-align: center;
+  margin: 3rem 0;
+}
+p.plug-phones img {
+  width: 25px;
+  margin: 0 auto 0.5rem;
+}
+
+
+.cards-wrapper {
+
+}
+.for-card {
+
+}
+.open-story {
+  position: relative;
+  display: block;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+.open-story img {
+  
+}
+.open-story .card-title {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.3em;
+  text-align: center;
+  color: var(--white);
+  padding: 1rem;
+}
+.open-story .card-title span {
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+}
+.view-all {
+  font-size: 14px;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+
+
+.blocker {
+  padding: 0;
+}
+.modal {
+  padding: 0;
+  max-width: unset;
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  background: transparent;
+}
+.modal a.close-modal {
+  background-image: url(../media/images/home.svg);
+  width: 22px;
+  height: 22px;
+  top: 1.5rem;
+  right: unset;
+  left: 1.5rem;
+}
+.for-story {
+  position: relative;
+  overflow: hidden;
+  padding: 1rem 0;
+}
+
+
+
+
+
+.for-footer {
+  padding: 2rem 1rem 3rem;
+}
+.for-footer p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.summary p strong{color: #f03737;}
+
+
+
+/* Responsiveness */
+
+
+/* Desktop */
+@media screen and (min-width: 1009px) {
+  .menu-wrapper {
+    width: 30vw;
+  }
+  .menu-wrapper .menu-body .menu li a {
+    
+  }
+}
+
+/* Full HD */
+@media screen and (min-width: 1440px) {
+  
+}
+
+/* Touch */
+@media screen and (max-width: 1008px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1008px) {
+  .menu-wrapper {
+    width: 60vw;
+  }
+  .open-story .card-title {
+    font-size: 24px;
+  }
+  .open-story .card-title span {
+    font-size: 20px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .menu-wrapper .menu-header .menu-logo img {
+    width: 70%;
+  }
+  .menu-wrapper .menu-body .menu li a {
+    font-size: 16px;
+  }
+  .open-story .card-title {
+    font-size: 16px;
+  }
+  .open-story .card-title span {
+    font-size: 16px;
+  }
+}
+
+/* Mini mobile, haha */
+@media screen and (max-width: 320px) {
+
+}
+
+
+
+/* For trunks later */
+.is-centered.is-wrapped {
+  flex-direction: column;
+  align-items: center;
+}

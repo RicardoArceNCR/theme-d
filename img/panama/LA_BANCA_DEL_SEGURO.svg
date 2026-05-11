@@ -1,0 +1,1171 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1401.17 1815.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #666;
+      }
+
+      .cls-2 {
+        fill: #4c4c4b;
+      }
+      .wind_c{
+    animation: winds linear 16s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: winds linear 16s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: winds linear 16s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: winds linear 16s;
+    -o-animation-iteration-count: infinite;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: winds linear 16s;
+    -ms-animation-iteration-count: infinite;
+    -ms-transform-origin: 50% 50%;
+  }
+.wind_a{
+    animation: winds linear 6s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: winds linear 6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: winds linear 6s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: winds linear 6s;
+    -o-animation-iteration-count: infinite;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: winds linear 6s;
+    -ms-animation-iteration-count: infinite;
+    -ms-transform-origin: 50% 50%;
+  }
+  .wind_b{
+    animation: winds linear 20s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    -webkit-animation: winds linear 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-transform-origin: 50% 50%;
+    -moz-animation: winds linear 20s;
+    -moz-animation-iteration-count: infinite;
+    -moz-transform-origin: 50% 50%;
+    -o-animation: winds linear 20s;
+    -o-animation-iteration-count: infinite;
+    -o-transform-origin: 50% 50%;
+    -ms-animation: winds linear 20s;
+    -ms-animation-iteration-count: infinite;
+    -ms-transform-origin: 50% 50%;
+  }
+  
+  @keyframes winds{
+    0% {
+      transform:  translate(0px,0px)  ;
+    }
+    20% {
+      transform:  translate(20px,-10px)  ;
+    }
+    39% {
+      transform:  translate(48px,-1px)  ;
+    }
+    65% {
+      transform:  translate(25px,16px)  ;
+    }
+    86% {
+      transform:  translate(2px,6px)  ;
+    }
+    100% {
+      transform:  translate(0px,-1px)  ;
+    }
+  }
+  
+  @-moz-keyframes winds{
+    0% {
+      -moz-transform:  translate(0px,0px)  ;
+    }
+    20% {
+      -moz-transform:  translate(20px,-10px)  ;
+    }
+    39% {
+      -moz-transform:  translate(48px,-1px)  ;
+    }
+    65% {
+      -moz-transform:  translate(25px,16px)  ;
+    }
+    86% {
+      -moz-transform:  translate(2px,6px)  ;
+    }
+    100% {
+      -moz-transform:  translate(0px,-1px)  ;
+    }
+  }
+  
+  @-webkit-keyframes winds {
+    0% {
+      -webkit-transform:  translate(0px,0px)  ;
+    }
+    20% {
+      -webkit-transform:  translate(20px,-10px)  ;
+    }
+    39% {
+      -webkit-transform:  translate(48px,-1px)  ;
+    }
+    65% {
+      -webkit-transform:  translate(25px,16px)  ;
+    }
+    86% {
+      -webkit-transform:  translate(2px,6px)  ;
+    }
+    100% {
+      -webkit-transform:  translate(0px,-1px)  ;
+    }
+  }
+  
+  @-o-keyframes winds {
+    0% {
+      -o-transform:  translate(0px,0px)  ;
+    }
+    20% {
+      -o-transform:  translate(20px,-10px)  ;
+    }
+    39% {
+      -o-transform:  translate(48px,-1px)  ;
+    }
+    65% {
+      -o-transform:  translate(25px,16px)  ;
+    }
+    86% {
+      -o-transform:  translate(2px,6px)  ;
+    }
+    100% {
+      -o-transform:  translate(0px,-1px)  ;
+    }
+  }
+  
+  @-ms-keyframes winds {
+    0% {
+      -ms-transform:  translate(0px,0px)  ;
+    }
+    20% {
+      -ms-transform:  translate(20px,-10px)  ;
+    }
+    39% {
+      -ms-transform:  translate(48px,-1px)  ;
+    }
+    65% {
+      -ms-transform:  translate(25px,16px)  ;
+    }
+    86% {
+      -ms-transform:  translate(2px,6px)  ;
+    }
+    100% {
+      -ms-transform:  translate(0px,-1px)  ;
+    }
+  }
+  .billete_a{
+  animation: billete_a linear 12s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 12s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 12s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 12s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 12s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+  .billete_b{
+  animation: billete_a linear 8s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 8s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 8s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 8s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 8s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_c{
+  animation: billete_a linear 12s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 12s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 12s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 12s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 12s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_d{
+  animation: billete_a linear 15s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 15s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 15s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 15s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 15s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_e{
+  animation: billete_a linear 10s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 10s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 10s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 10s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 10s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_f{
+  animation: billete_a linear 18s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 18s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 18s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 18s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 18s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_g{
+  animation: billete_a linear 20s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 20s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 20s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 20s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 20s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_h{
+  animation: billete_a linear 24s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 24s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 24s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 24s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 24s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_i{
+  animation: billete_a linear 28s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 28s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 28s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 28s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 28s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_j{
+  animation: billete_a linear 36s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 36s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 36s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 36s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 36s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_k{
+  animation: billete_a linear 30s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 30s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 30s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 30s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 30s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_l{
+  animation: billete_a linear 22s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 22s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 22s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 22s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 22s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_m{
+  animation: billete_a linear 40s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 40s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 40s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 40s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 40s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_n{
+  animation: billete_a linear 42s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 42s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 42s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 42s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 42s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_o{
+  animation: billete_a linear 50s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 50s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 50s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 50s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 50s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_p{
+  animation: billete_a linear 44s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 44s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 44s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 44s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 44s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_q{
+  animation: billete_a linear 34s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 34s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 34s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 34s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 34s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_r{
+  animation: billete_a linear 38s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 38s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 38s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 38s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 38s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_s{
+  animation: billete_a linear 31s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 31s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 31s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 31s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 31s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+  .billete_t{
+  animation: billete_a linear 29s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: billete_a linear 29s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: billete_a linear 29s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: billete_a linear 29s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: billete_a linear 29s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+@keyframes billete_a{
+  0% {
+    opacity:1;
+    transform:  translate(0px,0px)  ;
+  }
+  10% {
+    opacity:1;
+    transform:  translate(11px,24px)  ;
+  }
+  30% {
+    opacity:1;
+    transform:  translate(-6px,63px)  ;
+  }
+  50% {
+    opacity:1;
+    transform:  translate(22px,87px)  ;
+  }
+  77% {
+    opacity:1;
+    transform:  translate(-5px,114px)  ;
+  }
+  94% {
+    opacity:0.9;
+    transform:  translate(16px,141px)  ;
+  }
+  100% {
+    opacity:0;
+    transform:  translate(-16px,183px)  ;
+  }
+}
+
+@-moz-keyframes billete_a{
+  0% {
+    opacity:1;
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    opacity:1;
+    -moz-transform:  translate(11px,24px)  ;
+  }
+  30% {
+    opacity:1;
+    -moz-transform:  translate(-6px,63px)  ;
+  }
+  50% {
+    opacity:1;
+    -moz-transform:  translate(22px,87px)  ;
+  }
+  77% {
+    opacity:1;
+    -moz-transform:  translate(-5px,114px)  ;
+  }
+  94% {
+    opacity:0.9;
+    -moz-transform:  translate(16px,141px)  ;
+  }
+  100% {
+    opacity:0;
+    -moz-transform:  translate(-16px,183px)  ;
+  }
+}
+
+@-webkit-keyframes billete_a {
+  0% {
+    opacity:1;
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    opacity:1;
+    -webkit-transform:  translate(11px,24px)  ;
+  }
+  30% {
+    opacity:1;
+    -webkit-transform:  translate(-6px,63px)  ;
+  }
+  50% {
+    opacity:1;
+    -webkit-transform:  translate(22px,87px)  ;
+  }
+  77% {
+    opacity:1;
+    -webkit-transform:  translate(-5px,114px)  ;
+  }
+  94% {
+    opacity:0.9;
+    -webkit-transform:  translate(16px,141px)  ;
+  }
+  100% {
+    opacity:0;
+    -webkit-transform:  translate(-16px,183px)  ;
+  }
+}
+
+@-o-keyframes billete_a {
+  0% {
+    opacity:1;
+    -o-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    opacity:1;
+    -o-transform:  translate(11px,24px)  ;
+  }
+  30% {
+    opacity:1;
+    -o-transform:  translate(-6px,63px)  ;
+  }
+  50% {
+    opacity:1;
+    -o-transform:  translate(22px,87px)  ;
+  }
+  77% {
+    opacity:1;
+    -o-transform:  translate(-5px,114px)  ;
+  }
+  94% {
+    opacity:0.9;
+    -o-transform:  translate(16px,141px)  ;
+  }
+  100% {
+    opacity:0;
+    -o-transform:  translate(-16px,183px)  ;
+  }
+}
+
+@-ms-keyframes billete_a {
+  0% {
+    opacity:1;
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  10% {
+    opacity:1;
+    -ms-transform:  translate(11px,24px)  ;
+  }
+  30% {
+    opacity:1;
+    -ms-transform:  translate(-6px,63px)  ;
+  }
+  50% {
+    opacity:1;
+    -ms-transform:  translate(22px,87px)  ;
+  }
+  77% {
+    opacity:1;
+    -ms-transform:  translate(-5px,114px)  ;
+  }
+  94% {
+    opacity:0.9;
+    -ms-transform:  translate(16px,141px)  ;
+  }
+  100% {
+    opacity:0;
+    -ms-transform:  translate(-16px,183px)  ;
+  }
+}
+.embudo_up{
+  animation: embudo_up ease-in-out 4s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: embudo_up ease-in-out 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: embudo_up ease-in-out 4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: embudo_up ease-in-out 4s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: embudo_up ease-in-out 4s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes embudo_up{
+  0% {
+    transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  8% {
+    transform:  translate(0px,11px)  scaleY(0.90) ;
+  }
+  15% {
+    transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  28% {
+    transform:  translate(0px,7px)  scaleY(0.95) ;
+  }
+  34% {
+    transform:  translate(0px,0px)  scaleY(0.91) ;
+  }
+  43% {
+    transform:  translate(0px,10px)  scaleY(0.89) ;
+  }
+  54% {
+    transform:  translate(0px,-5px)  scaleY(1.07) ;
+  }
+  91% {
+    transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  98% {
+    transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  100% {
+    transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+}
+
+@-moz-keyframes embudo_up{
+  0% {
+    -moz-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  8% {
+    -moz-transform:  translate(0px,11px)  scaleY(0.90) ;
+  }
+  15% {
+    -moz-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  28% {
+    -moz-transform:  translate(0px,7px)  scaleY(0.95) ;
+  }
+  34% {
+    -moz-transform:  translate(0px,0px)  scaleY(0.91) ;
+  }
+  43% {
+    -moz-transform:  translate(0px,10px)  scaleY(0.89) ;
+  }
+  54% {
+    -moz-transform:  translate(0px,-5px)  scaleY(1.07) ;
+  }
+  91% {
+    -moz-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  98% {
+    -moz-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+}
+
+@-webkit-keyframes embudo_up {
+  0% {
+    -webkit-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  8% {
+    -webkit-transform:  translate(0px,11px)  scaleY(0.90) ;
+  }
+  15% {
+    -webkit-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  28% {
+    -webkit-transform:  translate(0px,7px)  scaleY(0.95) ;
+  }
+  34% {
+    -webkit-transform:  translate(0px,0px)  scaleY(0.91) ;
+  }
+  43% {
+    -webkit-transform:  translate(0px,10px)  scaleY(0.89) ;
+  }
+  54% {
+    -webkit-transform:  translate(0px,-5px)  scaleY(1.07) ;
+  }
+  91% {
+    -webkit-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  98% {
+    -webkit-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+}
+
+@-o-keyframes embudo_up {
+  0% {
+    -o-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  8% {
+    -o-transform:  translate(0px,11px)  scaleY(0.90) ;
+  }
+  15% {
+    -o-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  28% {
+    -o-transform:  translate(0px,7px)  scaleY(0.95) ;
+  }
+  34% {
+    -o-transform:  translate(0px,0px)  scaleY(0.91) ;
+  }
+  43% {
+    -o-transform:  translate(0px,10px)  scaleY(0.89) ;
+  }
+  54% {
+    -o-transform:  translate(0px,-5px)  scaleY(1.07) ;
+  }
+  91% {
+    -o-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  98% {
+    -o-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+}
+
+@-ms-keyframes embudo_up {
+  0% {
+    -ms-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  8% {
+    -ms-transform:  translate(0px,11px)  scaleY(0.90) ;
+  }
+  15% {
+    -ms-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  28% {
+    -ms-transform:  translate(0px,7px)  scaleY(0.95) ;
+  }
+  34% {
+    -ms-transform:  translate(0px,0px)  scaleY(0.91) ;
+  }
+  43% {
+    -ms-transform:  translate(0px,10px)  scaleY(0.89) ;
+  }
+  54% {
+    -ms-transform:  translate(0px,-5px)  scaleY(1.07) ;
+  }
+  91% {
+    -ms-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  98% {
+    -ms-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+}
+.embudo_down{
+  animation: embudo_down linear 3s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: embudo_down linear 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: embudo_down linear 3s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: embudo_down linear 3s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: embudo_down linear 3s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes embudo_down{
+  0% {
+    transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  50% {
+    transform:  translate(0px,-5px)  scaleY(1.05) ;
+  }
+  100% {
+    transform:  translate(0px,-5px)  scaleY(1.05) ;
+  }
+}
+
+@-moz-keyframes embudo_down{
+  0% {
+    -moz-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  50% {
+    -moz-transform:  translate(0px,-5px)  scaleY(1.05) ;
+  }
+  100% {
+    -moz-transform:  translate(0px,-5px)  scaleY(1.05) ;
+  }
+}
+
+@-webkit-keyframes embudo_down {
+  0% {
+    -webkit-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  50% {
+    -webkit-transform:  translate(0px,-5px)  scaleY(1.05) ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,-5px)  scaleY(1.05) ;
+  }
+}
+
+@-o-keyframes embudo_down {
+  0% {
+    -o-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  50% {
+    -o-transform:  translate(0px,-5px)  scaleY(1.05) ;
+  }
+  100% {
+    -o-transform:  translate(0px,-5px)  scaleY(1.05) ;
+  }
+}
+
+@-ms-keyframes embudo_down {
+  0% {
+    -ms-transform:  translate(0px,0px)  scaleY(1.00) ;
+  }
+  50% {
+    -ms-transform:  translate(0px,-5px)  scaleY(1.05) ;
+  }
+  100% {
+    -ms-transform:  translate(0px,-5px)  scaleY(1.05) ;
+  }
+}
+.edificio_a{
+  animation: edificios ease-in-out 2.2s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: edificios ease-in-out 2.2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: edificios ease-in-out 2.2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: edificios ease-in-out 2.2s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: edificios ease-in-out 2.2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+.edificio_b{
+  animation: edificios ease-in-out 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: edificios ease-in-out 2.5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: edificios ease-in-out 2.5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: edificios ease-in-out 2.5s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: edificios ease-in-out 2.5s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+.edificio_c{
+  animation: edificios ease-in-out 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: edificios ease-in-out 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: edificios ease-in-out 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: edificios ease-in-out 2s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: edificios ease-in-out 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+@keyframes edificios{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  33% {
+    transform:  translate(0px,-8px)  ;
+  }
+  66% {
+    transform:  translate(0px,6px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes edificios{
+  0% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  33% {
+    -moz-transform:  translate(0px,-8px)  ;
+  }
+  66% {
+    -moz-transform:  translate(0px,6px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes edificios {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  33% {
+    -webkit-transform:  translate(0px,-8px)  ;
+  }
+  66% {
+    -webkit-transform:  translate(0px,6px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-o-keyframes edificios {
+  0% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  33% {
+    -o-transform:  translate(0px,-8px)  ;
+  }
+  66% {
+    -o-transform:  translate(0px,6px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes edificios {
+  0% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  33% {
+    -ms-transform:  translate(0px,-8px)  ;
+  }
+  66% {
+    -ms-transform:  translate(0px,6px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}
+.moneda{
+  animation: moneda ease-in-out 4s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: moneda ease-in-out 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: moneda ease-in-out 4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: moneda ease-in-out 4s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: moneda ease-in-out 4s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes moneda{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+ 15% {
+    transform:  translate(0px,-51px)  ;
+  }
+  45% {
+    transform:  translate(0px,-5px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+    </style>
+    <image id="image" width="277" height="270" xlink:href="BILL_GENERAL.png"/>
+    <image id="image-2" width="119" height="116" xlink:href="BILL_4.png"/>
+  </defs>
+  <g class="moneda" id="MONEDA_2">
+    <image width="182" height="189" transform="translate(654.5 1626.5)" xlink:href="MONEDA_2.png"/>
+  </g>
+  <g class="embudo_up" id="EMBUDO_1">
+    <image width="261" height="374" transform="translate(610.46 745.15)" xlink:href="EMBUDO_1.png"/>
+  </g>
+  <g class="embudo_down" id="EMBUDO_2">
+    <image width="51" height="180" transform="translate(719.46 1291.77)" xlink:href="EMBUDO_2.png"/>
+  </g>
+  <g class="edificio_a" > 
+    <image width="162"  id="EDIFICIO_1"  data-depth="0.2" height="629" transform="translate(654.96)" xlink:href="EDIFICIO_3.png"/>
+  </g>
+  <g class="edificio_b"    data-depth="0.6">
+    <image width="241" id="EDIFICIO_2" height="528" transform="translate(924.38 130.2)" xlink:href="EDIFICIO_2.png"/>
+  </g>
+  <g class="edificio_c"  data-depth="0.4"> 
+    <image width="271"  id="EDIFICIO_3"  height="645" transform="translate(301.18 38.86)" xlink:href="EDIFICIO_1.png"/>
+  </g>
+  <g id="CS">
+    <image width="378" height="430" transform="translate(552.96 951.77)" xlink:href="EDIFICIO_CSS.png"/>
+  </g>
+  <g class="wind_c" id="NUBE_C">
+    <image width="360" height="202" transform="translate(1041.17 156.36)" xlink:href="NUBE_3%20(1).png"/>
+  </g>
+  <g class="wind_b" id="NUBE_B">
+    <image width="443" height="189" transform="translate(545.67 103.38)" xlink:href="NUBE_2%20(1).png"/>
+  </g>
+  <g class="wind_a" id="NUBE_A">
+    <image width="443" height="189" transform="translate(0 139.76)" xlink:href="NUBE_1.png"/>
+  </g>
+  <g class="billete_t" id="BILL_1">
+    <use transform="translate(859.47 716.19) rotate(41.85) scale(0.31)" xlink:href="#image"/>
+  </g>
+  <g class="billete_q" id="BILL_1_copy" data-name="BILL_1 copy">
+    <use transform="translate(752.78 670.15) rotate(41.85) scale(0.2)" xlink:href="#image"/>
+  </g>
+  <g  class="billete_p" id="BILL_1_copy_2" data-name="BILL_1 copy 2">
+    <use transform="matrix(0.2, 0.21, -0.21, 0.2, 638.87, 672.8)" xlink:href="#image"/>
+  </g>
+  <g class="billete_o" d="BILL_1_copy_3" data-name="BILL_1 copy 3">
+    <use transform="translate(761.23 589.33) rotate(0.76) scale(0.42)" xlink:href="#image"/>
+  </g>
+  <g class="billete_s" id="BILL_1_copy_4" data-name="BILL_1 copy 4">
+    <use transform="translate(720.69 590.95) rotate(47.31) scale(0.48)" xlink:href="#image-2"/>
+  </g>
+  <g class="billete_n" id="BILL_1_copy_9" data-name="BILL_1 copy 9">
+    <use transform="matrix(0.14, 0.3, -0.3, 0.14, 675.48, 544.44)" xlink:href="#image"/>
+  </g>
+  <g class="billete_m" id="BILL_1_copy_8" data-name="BILL_1 copy 8">
+    <use transform="translate(607.68 560.54) rotate(86.85) scale(0.48)" xlink:href="#image-2"/>
+  </g>
+  <g class="billete_l" id="BILL_1_copy_7" data-name="BILL_1 copy 7">
+    <use transform="translate(956.11 504.69) rotate(69.83) scale(0.43)" xlink:href="#image-2"/>
+  </g>
+  <g class="billete_k" id="BILL_1_copy_6" data-name="BILL_1 copy 6">
+    <use transform="translate(852.46 487.88) rotate(46.97) scale(0.45)" xlink:href="#image-2"/>
+  </g>
+  <g class="billete_j" id="BILL_1_copy_5" data-name="BILL_1 copy 5">
+    <use transform="translate(746.67 468.92) rotate(45.36) scale(0.28)" xlink:href="#image"/>
+    <use transform="matrix(0.19, 0.19, -0.19, 0.19, 710.62, 326.76)" xlink:href="#image"/>
+  </g>
+  <g class="billete_i" id="BILL_1_copy_19" data-name="BILL_1 copy 19">
+    <use transform="translate(662.21 464.7) rotate(46.97) scale(0.45)" xlink:href="#image-2"/>
+  </g>
+  <g class="billete_h" id="BILL_1_copy_18" data-name="BILL_1 copy 18">
+    <use transform="translate(552.44 474.54) rotate(27.23) scale(0.52)" xlink:href="#image-2"/>
+  </g>
+  <g class="billete_g" id="BILL_1_copy_17" data-name="BILL_1 copy 17">
+    <use transform="translate(986.08 439.39) rotate(105.87) scale(0.46)" xlink:href="#image-2"/>
+  </g>
+  <g class="billete_f" id="BILL_1_copy_16" data-name="BILL_1 copy 16">
+    <use transform="matrix(0.31, 0.31, -0.31, 0.31, 867.64, 405.18)" xlink:href="#image-2"/>
+  </g>
+  <g class="billete_e" id="BILL_1_copy_15" data-name="BILL_1 copy 15">
+    <use transform="translate(806.82 442.52) rotate(44.86) scale(0.39)" xlink:href="#image-2"/>
+  </g>
+  <g class="billete_d" id="BILL_1_copy_14" data-name="BILL_1 copy 14">
+    <use transform="translate(769.05 403.31) rotate(75.73) scale(0.31)" xlink:href="#image-2"/>
+  </g>
+  <g class="billete_c" id="BILL_1_copy_13" data-name="BILL_1 copy 13">
+    <use transform="translate(606.45 395.96) rotate(50.6) scale(0.54)" xlink:href="#image-2"/>
+  </g>
+  <g class="billete_b" id="BILL_1_copy_12" data-name="BILL_1 copy 12">
+    <use transform="translate(486.67 373.9) rotate(34.36) scale(0.54)" xlink:href="#image-2"/>
+  </g>
+  <g class="billete_a" id="BILL_1_copy_11" data-name="BILL_1 copy 11">
+    <use transform="translate(1002.68 342.42) rotate(70.26) scale(0.46)" xlink:href="#image-2"/>
+  </g>
+</svg>

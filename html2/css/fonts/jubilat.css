@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Jubilat';
+    src: url('Jubilat-Light.woff2') format('woff2'),
+        url('Jubilat-Light.woff') format('woff'),
+        url('Jubilat-Light.svg#Jubilat-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jubilat';
+    src: url('Jubilat-Bold.woff2') format('woff2'),
+        url('Jubilat-Bold.woff') format('woff'),
+        url('Jubilat-Bold.svg#Jubilat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jubilat';
+    src: url('Jubilat.woff2') format('woff2'),
+        url('Jubilat.woff') format('woff'),
+        url('Jubilat.svg#Jubilat') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

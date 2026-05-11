@@ -1,0 +1,282 @@
+body.page-template-divergentes-panama .social-i a {
+  color: #FFF;
+  padding-right: 10px;
+}
+
+body.page-template-divergentes-panama .col-4.pt-1.social-i a {
+  color: white;
+}
+
+body.page-template-divergentes-panama .nav-top {
+  border-bottom: none;
+  ;
+}
+
+body.page-template-divergentes-panama .fly-to-top {
+  background: #333;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+  position: fixed;
+  right: 15px;
+  bottom: 50px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  opacity: .5;
+  transition: ease-in all 300ms;
+  display: block;
+}
+
+section#scene{
+  background: url(../img/panama/FONDO.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.main_animation {
+  width: 100%;
+}
+.main_animationbody {
+  width: 25%;
+  margin-left: 38%;
+  padding-bottom: 40px;
+}
+.main_animationpinata {
+  width: 44%;
+  margin-left: 27%; }
+body.page-template-divergentes-panama {
+  margin-top: 50px !important;
+  position: relative;
+}
+section#scene {
+  margin-top: 0px !important;
+}
+.text-espanama p {
+  color: #314A5D;
+  font-size: 1.3rem;
+}
+.texto-ilustracion {
+
+}
+.texto-ilustracion span {
+  color: #314A5D;
+}
+.text-espanama h3 {
+  color: #EC3A55;
+  font-weight: 700;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.text-espanama .media {
+  max-width: 250px;
+  margin-left: auto;
+}
+.text-espanama .media-body h4 {
+  color: #ec3a55;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+.text-espanama .media-body h5 {
+  color: #ec3a55;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: left;
+}
+img#edificio-quiebra {
+  max-width: 350px;
+}
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+section.timeline-panama {
+  width: 100%;
+  overflow: hidden;
+}
+.timeline-panama ul {
+  padding: 50px 0;
+}
+section.timeline-panama {
+  width: 100%;
+  overflow: hidden;
+}
+.timeline-panama p {
+  color: #FFF;
+  text-align: left;
+}
+.timeline-panama ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #000000;
+}
+
+.timeline-panama ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline-panama ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #003A4D;
+}
+
+.timeline-panama ul li div::before {
+  content: '';
+  position: absolute;
+  bottom: 7px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline-panama ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline-panama ul li:nth-child(odd) div::before {
+  left: -25px;
+  border-width: 16px 32px 16px 0;
+  border-color: transparent #003A4D transparent transparent;
+}
+
+.timeline-panama ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline-panama ul li:nth-child(even) div::before {
+  right: -25px;
+  border-width: 16px 0 16px 32px;
+  border-color: transparent transparent transparent #003A4D;
+}
+
+.timeline-panama ul li time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: #FFF;
+}
+
+
+.timeline-panama p span {
+  color: #95FFED;
+}
+
+
+.timeline-panama ul li a{
+ 
+  color: #ffffff;
+  transition: all 100ms;
+}
+.timeline-panama ul li a:hover{
+  color: #ffffff;
+}
+/* EFFECTS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline-panama ul li::after {
+  transition: background .5s ease-in-out;
+}
+
+.timeline-panama ul li.in-view::after {
+  background: #CF4A59;
+}
+
+.timeline-panama ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline-panama ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.timeline-panama ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.timeline-panama ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+  border-radius: 0px 17px 0px 0px;
+}
+
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media screen and (max-width: 900px) {
+  .timeline-panama ul li div {
+    width: 250px;
+  }
+  .timeline-panama ul li:nth-child(even) div {
+    left: -289px;
+    /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline-panama ul li {
+    margin-left: 20px;
+  }
+  .timeline-panama ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline-panama ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline-panama ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #CF4A59 transparent transparent;
+  }
+}
+
+
+
+@media (max-width: 575.98px) {
+  .main_animation {
+    width: 170%;
+    margin-left: -40%;
+  }
+  
+  section.main-panama {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .main_animationbody {
+    width: 70%;
+    margin-left: 15%;
+}
+.main_animationpinata {
+  width: 100%;
+  margin-left: 0;
+}
+.resumen {
+  text-align: left;
+}
+p {
+  text-align: left;
+}
+  }
+  

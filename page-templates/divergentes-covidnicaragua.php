@@ -1,0 +1,609 @@
+<?php
+
+/*
+* Template Name: covid-nicaragua
+*
+* @package WordPress
+*/
+
+get_header('covid');
+?>
+
+    <section id="feat_video" class="covid h_featured">
+        <div class="container">
+
+            <div class="t_especial">
+                <div class="row">
+
+                    <div class="col-md-1">
+                    </div>
+                    <div class="col-md-8">
+                        <h3 class="animate__animated animate__fadeInUp animate__delay-1s">Coronavirus en Nicaragua:</h3>
+                        <h1 class="animate__animated animate__fadeInUp  animate__delay-1s">Bajo la sombra del secretismo y mentiras del Gobierno de Ortega</h1>
+                    </div>
+                    <div class="col-md"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="covid contenido mt-5 text-justify">
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-md-1"> </div>
+                <div class="col-md-10">
+                    <div class="resumen">
+                        <?php echo do_shortcode('[Sassy_Social_Share type="floating"]'); ?>
+
+                        <p><i>El régimen sandinista invoca “al poder de la oración” para hacer frente a una pandemia que se ha cobrado decenas de miles de vidas en el mundo, mientras esconde las estadísticas de contagios y muertes. Los médicos lanzan un grito desesperado frente a la negligencia oficial y advierten: “podrán esconder la curva de contagios, pero no los muertos”. La advertencia se volvió realidad a partir de la sexta semana de epidemia con los “entierros exprés”.</i></p>
+                    </div>
+                    <div  id="fuerte-rumor-funebre" class="autor media mt-5">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/wilfredo.jpg" class="align-self-start mr-3 rounded-circle" alt="PruloArts">
+                        <div class="media-body pt-3">
+                            <h5 class="mt-0">Wilfredo Miranda Aburto</h5>
+                            <a href="https://twitter.com/PiruloAr" title="@PiruloAr" target="_blank" class="covid-tc1">@PiruloAr</a>
+                        </div>
+                    </div>
+                    <h1 class="covid-tc1 wow animate__animated animate__fadeIn">I</h1>
+                    <h1 class="covid-tc2 wow animate__animated animate__fadeIn mb-5">Hay un fuerte rumor fúnebre </h1>
+                    <p>Los médicos están seguros que sus pacientes murieron por COVID-19, los familiares están convencidos que sus seres queridos murieron por Coronavirus, pero el gobierno de Daniel Ortega y Rosario Murillo consigna que esas personas murieron por otras causas.</p>
+                    <p>Es la sexta semana de pandemia (a finales del mes de abril) y en los hospitales hay un fuerte rumor fúnebre. Las carrozas funerarias salen y entran de los centros hospitalarios casi con la misma frecuencia que lo hacen las ambulancias. En el Portón 2 del Hospital Alemán Nicaragüense, en Managua, decenas de rostros demacrados por la aflicción tratan de ver por los resquicios de la barda si su familiar es el siguiente que saldrá en un ataúd sellado con destino exprés a un cementerio, tal como establece el protocolo del Ministerio de Salud (Minsa) para las defunciones por COVID-19.</p>
+                    <p>El ambiente es de una pesadez desconcertante. Cuando el portón se abre, la respiración es contenida, y a los familiares que les toca esta mortal ruleta vírica, se montan con rapidez a un vehículo para perseguir el féretro. El cadáver es escoltado por funcionarios del Minsa, quienes fungen como una suerte de sepultureros espaciales debido a los monos impermeables que usan. Los trajes les infunden aires de astronautas en medio de la pandemia que desorbita al mundo, excepto al gobierno sandinista cuyo discurso insiste en que todo lo que vemos son “noticias falsas”, elucubradas por la “oposición golpista”.</p>
+                    <p>Lo que a Vladimir Rodríguez no le calza es que si el acta de defunción de su hermano, Elder Rodríguez, establece la causal del deceso por neumonía y shock séptico, ¿por qué las autoridades sanitarias ordenaron enterrarlo de inmediato?</p>
+                    <p>“Ellos (gobierno) no quieren que se sepa la realidad. Están ocultando los casos y las muertes provocadas por este virus. No son noticias falsas, es una realidad que nos afecta”, reclama Vladimir, quien liquidó su militancia sandinista el 11 de mayo, cuando su hermano —también militante y trabajador del Aeropuerto Internacional de Managua— falleció en un hospital capitalino. “Mi familia siempre ha opinado a favor de Daniel Ortega. Siempre hemos creído en sus palabras, y ahora estamos decepcionados”.</p>
+                    <p>El de Elder Rodríguez fue uno de los tantos “entierros exprés” registrados en Nicaragua desde que explotó la curva de ascenso rápido de contagios. La tía de Elder también falleció por Coronavirus la misma semana y su muerte también fue atribuida a otras patologías. Decenas de médicos consultados por este periódico aseguran que la orden del Minsa es no plasmar en las actas de defunción la enfermedad COVID-19, en un intento por disfrazar las muertes provocadas por la pandemia. Pero con el paso de los días, ese intento encubridor es desmontado por la mortalidad del virus y el colapso de los hospitales.</p>
+                    <p>Solo en el Hospital Alemán Nicaragüense fallecen, en promedio, 15 personas a diario. La morgue está saturada y los cadáveres se apilan en los pasillos. Son afirmaciones de médicos extenuados, quienes no dejan de atender las crecientes oleadas de pacientes que traen las ambulancias. Pero lo que más enoja al personal de salud es la minimización del Coronavirus hecha por el gobierno y sus adeptos. Por ejemplo, diputados que se rieron de sus colegas que portaban mascarillas, despreocupados comerciantes sandinistas que bailaron en son de burla por la epidemia, o la misma vicepresidenta Rosario Murillo, quien asegura que Nicaragua está a nivel de "Suecia" como país modelo en la contención de la COVID-19. Pero los que se rieron y los que se burlaron acabaron contagiados y hospitalizados. Y las autoridades, a regañadientes, admitieron a medias un aumento exponencial del virus ante el colapso del sistema de salud público y privado.</p>
+                    <p>En menos de un mes, Nicaragua pasó de 25 casos a 1,118 contagios, mientras que el Minsa solo reconoce 46 muertes. Estimaciones independientes cifran más de 4, 000 casos positivos y al menos 980 defunciones relacionadas a la COVID-19. Pero conocer la verdadera dimensión del nuevo Coronavirus en Nicaragua es, por ahora, un imposible ante la alteración de las estadísticas y el secretismo imperante. Lo que sí es muy seguro, a juicio de especialistas, es que el azote de la COVID-19 se pudo haber mitigado si el gobierno hubiera adoptado medidas adecuadas de prevención a tiempo. Pero el hubiera no existe, como se dice popularmente. El país, paralizado, está ahora frente a procesiones de carros fúnebres en las calles, y ante unos gobernantes tercos que se niegan a reconocer el contagio local y comunitario. Es una ceguera epidemiológica adrede y mortal, insisten todas las voces especializadas. “Vamos hacia el desfiladero”, advirtió el neumólogo Jorge Iván Miranda. ¿Cómo llegó Nicaragua hasta acá? El inicio del camino hacia el desfiladero puede fecharse el pasado 14 de marzo, cuando un crucero atracó en el puerto de Corinto, y la alerta del neumólogo no se veía tan real y posible como hoy: al borde del precipicio.</p>
+                </div>
+            </div>
+        </div>
+        <div id="welcome-to-nicaragua" class="welcome-nicaragua mt-5 jarallax"></div>
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-md-1"> </div>
+                <div class="col-md-10">
+                    <h1 class="covid-tc1 wow animate__animated animate__fadeIn">II</h1>
+                    <h1 class="covid-tc2 wow animate__animated animate__fadeIn mb-5">“Welcome to Nicaragua!”</h1>
+                    <p>Los niños ataviados en trajes típicos esperan, con los suvenires en mano, al crucero Amadea en el Puerto de Corinto, en el occidente de Nicaragua. En el muelle todo es carnaval esta mañana de sábado, 14 de marzo. El Instituto Nicaragüense de Turismo (Intur) preparó una bienvenida pomposa para recibir a los 800 turistas a bordo. La marimba, ese antiguo instrumento musical traído a América por los esclavos africanos, ameniza el ambiente y marca el paso a fibrosos jóvenes que se contonean en el muelle. Los niños ven ansiosos el desembarco, asombrados por el mastodóntico buque. Los rubios turistas bajan por la rampa y de inmediato los pequeños les entregan los regalos de este destino turístico “único y original”, como lo ha designado el Gobierno de Daniel Ortega. Las imágenes del recibimiento bajo el “Welcome to Nicaragua” causan alarma de inmediato, porque suceden mientras el mundo decreta aislamiento, cierra fronteras y cuenta por decenas de miles los muertos por la pandemia de COVID-19.</p>
+                    <div class="text-center m-5">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/puerto_corinto-80.jpg" alt="Puerto Corinto" class="img-fluid wow animate__animated animate__fadeInLeft" />
+                    </div>
+                    <p>Pocas horas después del recibimiento en Corinto, la vicepresidenta y esposa de Ortega, Rosario Murillo —figura omnipresente y todopoderosa del Gobierno— saludó en la televisión a los turistas del Amadea y tras obviar el riesgo de contagio que implicaban 800 extranjeros, quienes <a href="https://www.cruisemapper.com/ships/Amadea-555" title="Amadea" target="_blank" class="covid-tc1">zarparon desde San Francisco</a>, Estados Unidos, epicentro mundial de la pandemia, dio “gracias a Dios” por la llegada del crucero.</p>
+                    <p>El desembarco del Amadea fue una de las primeras señales de la política oficial del Gobierno Ortega-Murillo ante la pandemia de COVID-19: una serie de acciones inusitadas frente la emergencia sanitaria que contradicen las recomendaciones de la Organización Mundial de la Salud (OMS) y de expertos epidemiólogos, quienes recomiendan evitar aglomeraciones y promover aislamiento social, cerrar fronteras y declarar cuarentena.</p>
+                    <p>Las advertencias de los expertos se materializaron en la primera semana de mayo. Los hospitales públicos y privados se desbordaron debido a un brote de insuficiencias respiratorias agudas y neumonías atípicas. El Ministerio de Salud (Minsa) centraliza las pruebas para COVID-19 y el número que realiza es insuficiente para un país de 6.3 millones de personas. Un documento interno del Minsa, que fue filtrado por trabajadores públicos de la salud, expone que a nivel nacional solo se realizan 50 pruebas para detectar el Coronavirus en el Centro Nacional de Diagnóstico y Referencia (CNDR), laboratorio que funciona en el complejo Conchita Palacios de la capital. La carencia de un muestreo masivo impide conocer el avance real de la COVID-19 en Nicaragua. Los expertos lo califican de “ceguera epidemiológica”.</p>
+                    <p>La situación es agravada por los casos de neumonía y de insuficiencias respiratorias, ya que el Minsa no realiza la prueba a todos los pacientes sospechosos de COVID-19. La principal razón es que el régimen Ortega-Murillo insiste en que la epidemia no ha evolucionado a la fase de contagio local y las pruebas solo se realizan cuando el paciente ha viajado al exterior o ha tenido contacto “con casos importados” que la autoridad sanitaria reconoce como positivos, lo que es insuficiente a juicio de los médicos consultados. Para empeorar el panorama, decenas de médicos –del sector público y privado– han evidenciado una nueva maniobra del Minsa para maquillar los posibles casos positivos: los denominados “casos indeterminados”.</p>
+
+                    <div class="text-center my-5">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/covid_2-81.jpg" alt="Infografia" class="img-fluid wow animate__animated animate__fadeIn" />
+                        <small>Elección de la chica “miss verano” en la ciudad de Nindiri, Masaya, una de las cientos de actividades convocadas por la vicepresidenta Murillo en medio de la pandemia. <br><b>Carlos Herrera | DIVERGENTES.</b></small>
+                    </div>
+
+                    <p>“Indeterminado” significa que la prueba de laboratorio —llamada “Reacción en Cadena de la Polimersa (PCR)” — detectó poca carga vírica de COVID-19 en la muestra de un paciente. Los doctores consideran inaudito que, ante un contexto de pandemia, el Minsa no registre como positivo un resultado de esta naturaleza. En cambio, la autoridad sanitaria comunica por teléfono al médico que el caso es “indeterminado”, y por ende no orienta tratarlo con los protocolos de protección. Esta situación ha generado caos en los hospitales y que más de 40 médicos hayan desarrollado síntomas de coronavirus.</p>
+                    <p>Los médicos señalan un enorme subregistro. Un subregistro causado no por un margen de error natural en el manejo de una epidemia, sino por decisiones deliberadas de minimizar el impacto del virus aparecido en la ciudad china de Wuhan. Aunque el secretismo con el que las autoridades sandinistas administran la epidemia en los hospitales es fuerte, al final tiene fisuras. Médicos y enfermeros, hartos de la negligencia, se atreven a relatar lo que pasa en los hospitales y que la propaganda del Gobierno esconde. Fisuras que dejan entrever una seria amenaza sanitaria.</p>
+                    <div class="text-center my-5">
+                        <div id="carouselRX" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner row">
+                                <div class="carousel-item col-md-3 active">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/rx/Rx01.jpg" alt="Tomografías" class="img-fluid" />
+                                </div>
+                                <div class="carousel-item col-md-3">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/rx/Rx02.jpg" alt="Tomografías" class="img-fluid" />
+                                </div>
+                                <div class="carousel-item col-md-3">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/rx/Rx03.jpg" alt="Tomografías" class="img-fluid" />
+                                </div>
+                                <div class="carousel-item col-md-3">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/rx/Rx04.jpg" alt="Tomografías" class="img-fluid" />
+                                </div>
+                                <div class="carousel-item col-md-3">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/rx/Rx05.jpg" alt="Tomografías" class="img-fluid" />
+                                </div>
+                                <div class="carousel-item col-md-3">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/rx/Rx06.jpg" alt="Tomografías" class="img-fluid" />
+                                </div>
+                                <div class="carousel-item col-md-3">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/rx/Px07.jpg" alt="Tomografías" class="img-fluid" />
+                                </div>
+                                <div class="carousel-item col-md-3">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/img/rx/Rx08.jpg" alt="Tomografías" class="img-fluid" />
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselRX" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselRX" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                    <p><b>DIVERGENTES</b> tiene bajo resguardo tomografías y más de 50 placas de tórax de pacientes sintomáticos, entre ellas el escáner radiográfico de un Emergenciólogo de un hospital privado, quien atendió uno de los casos positivos reconocidos por el Gobierno de Ortega. Las radiografías provienen de diversos hospitales públicos y privados y reflejan serias neumonías y afecciones respiratorias. Otra de las imágenes corresponde a una mujer de 69 años, quien falleció el 30 de abril debido a problemas respiratorios, pero oficialmente su muerte fue achacada a problemas cardíacos. Lo que llamó la atención en el caso de esta mujer es que las autoridades sanitarias de la ciudad de Chinandega, en el occidente de Nicaragua, ordenaron su entierro sin su familia. Fue sepultada a toda prisa por unos hombres embutidos en trajes protectores. Esta es solo una muestra de la poca transparencia con la que el Gobierno trata la pandemia.</p>
+                </div>
+            </div>
+        </div>
+</div>
+<div id="marcha-politica" class="marcha-politica mt-5 jarallax"></div>
+<div class="container mt-5">
+    <div class="row pt-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <h1 class="covid-tc1 wow animate__animated animate__fadeIn">III</h1>
+            <h2 class="covid-tc2 wow animate__animated animate__fadeIn">primera medida:</h2>
+            <h1 class="covid- mb-3 wow animate__animated animate__fadeIn mb-5">una marcha política</h1>
+            <p>La COVID-19 avanza rápido en Latinoamérica a mediados de marzo, y los primeros contagios en Centroamérica infundieron zozobra entre los nicaragüenses. La cobertura de los diarios nacionales dejó atrás la crisis sociopolítica que los ocupaba casi por completo desde abril de 2018, cuando estallaron las protestas contra el gobierno Ortega-Murillo, las mismas que derivaron en una matanza de más de 325 personas, y que fue perpetrada por policías y paramilitares afines al partido sandinista, según un informe de la Comisión Interamericana de Derechos Humanos (CIDH). En las redes sociales y WhatsApp el pánico y la incertidumbre ante la inminencia del coronavirus reinó por igual. Las autoridades sanitarias no informaron sobre sus planes de contención. En el clímax de la ansiedad, ante la llegada de cruceros y aviones al país, la vicepresidenta Murillo dictó la primera medida frontal para “combatir” la pandemia: <a href="https://www.el19digital.com/articulos/ver/titulo:101259-nicaraguenses-caminan-con-la-fuerza-de-la-fe-y-la-esperanza-en-amor-en-tiempos-del-covid-19" title="Marcha Política Amor en tiempos de covid-19" target="_blank" class="covid-tc1">una marcha política.</a></p>
+            <p>Murillo la bautizó como “Amor en tiempos de COVID-19”, con lo que hacía referencia el título de la novela de Gabriel García Márquez, El amor en los tiempos del cólera. Pero el realismo mágico del escritor colombiano quedó eclipsado frente a la marcha gubernamental: miles de trabajadores públicos y simpatizantes sandinistas caminaron apretujados sobre la Avenida Bolívar, una de las arterias viales más anchas de la capital Managua. Los asistentes llevaron pelucas multicolores, pancartas que proclamaban “victoria sobre el coronavirus”, “gracias al comandante Ortega y la compañera Rosario”, según los animadores de la movilización. Quienes sobresalieron en la caminata fueron los trabajadores del sistema de salud público. Doctores y enfermeros con sus batas blancas repitiendo la consigna oficial ordenada por Murillo para la marcha: “caminamos con la fuerza de la fe y la esperanza, en amor en tiempos de COVID-19”.</p>
+
+
+            <p>Los epidemiólogos y expertos en salud pública se infartaron al ver en la televisión la marcha. El doctor Milton Valdez, quien durante la revolución sandinista en la década del ochenta fue viceministro de Salud, insistió en la importancia de no asistir a grandes reuniones, porque el nuevo coronavirus es de alta transmisibilidad. “Aunque la COVID-19 tiene baja mortalidad, el problema real es que su gran espectro de contagio pueda superar la capacidad instalada de las unidades de salud de Nicaragua. Es una actitud irresponsable convocar a gente para que se incremente el riesgo de contagio”, advirtió el experto, quien ha trabajado para la Organización Panamericana de la Salud (OPS) y también en el África Subsahariana como encargado de control epidemiológico. Este país centroamericano cuenta con 160 ventiladores, que ya están ocupados para hacer frente a otras enfermedades, y 9.6 camillas hospitalarias por cada 100.000 habitantes, según un informe preparado por la Fundación Nicaragüense para el Desarrollo Económico y Social (Funides), una organización ligada al sector empresarial.</p>
+            <p>La propaganda del Gobierno inició una intensa campaña para minimizar la letalidad de la COVID-19. Algunos voceros llegaron a catalogarlo como “un simple catarro”. Otros argumentaron que “como el sistema de salud de Nicaragua es público y no privado, no impactaría como en Estados Unidos o Europa”. Uno de los razonamientos más disparatados lo dio uno de los decanos de la propaganda sandinista, William Grigsby, un leal de la pareja presidencial. “El COVID-19 es el Ébola de los ricos y blancos. Muchos ricos han muerto incluyendo el expresidente del Real Madrid”, sostuvo en la ‘Radio Ya’, la emisora sandinista más escuchada en el país. Bajo esas premisas, por ejemplo, el Ministerio de Educación se negó a cesar las clases presenciales y las ligas de fútbol y béisbol son las únicas que no han sido suspendidas en Latinoamérica.</p>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/covid_3-80.jpg" alt="Amor en tiempos de covid-19" class="img-fluid wow animate__animated animate__fadeIn" />
+            <small>Simpatizantes sandinistas desafiaron a la COVID-19 en un evento masivo, al que asistieron sin protección. <br><b>Carlos Herrera | DIVERGENTES.</b></small>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <p>El milagro, sin embargo, no ocurrió y la COVID-19 contagió a Nicaragua. Fue la misma vicepresidenta Murillo quien anunció el primer caso positivo la noche del 18 de marzo, cinco días después de su amorosa marcha. Se trató de un hombre de 40 años que regresó el 15 de marzo de Panamá e ingresó sin mayores contratiempos por el Aeropuerto Internacional Augusto C. Sandino, debido a la laxitud de los controles migratorios y la política de fronteras abiertas del Gobierno. Sin embargo, el régimen no varió su estrategia. En vez de marcha, les ordenó al personal sanitario y sus simpatizantes visitas casa a casa “para brindar información básica” sobre el virus. Murillo ha dicho que los “brigadistas” visitaron 2.5 millones de hogares, aunque en las redes sociales abundaron videos que mostraban cómo estas personas fueron repelidas por la ciudadanía. </p>
+            <p>El 26 de marzo, el mismo día que falleció el primer paciente a causa de la COVID-19 en Nicaragua, un funcionario del Ministerio de Salud, Jorge Romero, dijo a un canal de televisión local que declarar cuarentena era una medida “alarmante y extremista”. Las autoridades de salud establecieron días atrás que no cerrarían las fronteras, ni siquiera a las personas que vinieran de “países con riesgos de transmisión”.</p>
+            <p>El Gobierno sandinista se ha opuesto a la cuarentena en todo momento. Aunque los argumentos suelen redundar en la “fortaleza” del sistema de salud nicaragüense, también han esgrimido otros de corte económico. La propaganda ha insistido en que la cuarentena es una <a href="https://twitter.com/CarlosFT_FSLN/status/1243061183961280514?s=20" title="Tweet medida burguesa" target="_blank" class="covid-tc1">medida “burguesa”</a>, porque “destruiría la pequeña y micro empresa popular”. A mediados de marzo, el asesor presidencial para asuntos económicos, el comandante Bayardo Arce, se reunió con magistrados y administradores del Poder Judicial. Según algunos trabajadores judiciales, Arce les explicó que no podía declararse cuarentena porque “nos iríamos a pique”, en referencia a la economía del país.</p>
+            <p>En realidad, la economía nicaragüense no logra retomar el paso desde la crisis sociopolítica de abril, luego de que la represión policial y paramilitar ahuyentó al turismo, a los inversionistas, quebró la actividad local y acarreó sanciones económicas internacionales. El Gobierno intenta reanimar la economía con todo tipo de medidas “creativas”, pero los economistas afirman que mientras no se resuelva la crisis política derivada de abril de 2018, todo intento de recuperación será en vano.</p>
+        </div>
+    </div>
+
+</div>
+<div id="ortega-el-ausente" class="ortega-elausente mt-5 jarallax"></div>
+<div class="container mt-5">
+    <div class="row pt-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <h1 class="covid-tc1 wow animate__animated animate__fadeIn">IV</h1>
+            <h1 class="covid- mb-3 wow animate__animated animate__fadeIn mb-5">Ortega, el ausente</h1>
+            <p><b>La última vez que los nicaragüenses vieron a Daniel Ortega fue el 12 de marzo.</b> Ese día el mandatario, de 74 años, participó en una <a href="https://www.el19digital.com/articulos/ver/titulo:101190-presidente-daniel-ortega-y-vicepresidenta-rosario-participan-en-reunion-virtual-extraordinaria-de-jefes-de-estado-y-de-gobierno-del-sica" title="Reunión virtual SICA" target="_blank" class="covid-tc1">reunión virtual</a> convocada por el Sistema de Integración Centroamericana (SICA), en la que los presidentes del istmo discutieron una estrategia conjunta para contener la COVID-19. Ortega fue el único de los presidentes que no explicó cuáles eran los planes de su Administración. Su intervención en la telereunión duró 1 minuto y 13 segundos. Ortega atendió la reunión virtual desde su infranqueable mansión en el Reparto El Carmen de Managua, la casa particular de su familia, oficina presidencial y Secretaría Nacional del Frente Sandinista de Liberación Nacional (FSLN). Una simbiosis que ilustra la naturaleza en la que opera el régimen: una triple confusión estado-partido-familia.</p>
+            <p>
+                <b>“Ortega, el gobernante ausente”.</b> Así ha bautizado la prensa nicaragüense al mandatario, quien acostumbra a desaparecer durante largas jornadas de la palestra pública. Pero esta vez, en plena amenaza sanitaria, el presidente ha batido su récord de ausencias con más de 30 días, lo que avivó todo tipo de rumores sobre su estado de salud. En lo que va de 2020, el presidente solo ha participado en 12 actividades oficiales. La ley establece que necesita un permiso del Parlamento si se ausenta más de 15 días, pero con Ortega este trámite legal es insustancial, ya que la mayoría sandinista en el hemiciclo le profesa lealtad.</p>
+        </div>
+    </div>
+</div>
+<div class="container my-5">
+    <div class="row">
+        <div class="col">
+            <h1 class="timeline_titulo wow animate__animated animate__bounceInDown">2020</h1>
+            <div class="swiper-container">
+                <p class="swiper-control">
+                    <button type="button" class="btn btn-divergentes btn-sm prev-slide">Anterior</button>
+                    <button type="button" class="btn btn-divergentes  btn-sm next-slide">Siguiente</button>
+                </p>
+                <div class="swiper-wrapper timeline">
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">28 de febrero<span>
+                        </div>
+                        <div class="status">
+                            <span>El Minsa declara que en ese país “no hay ni declarará cuarentena”.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">12 de marzo<span>
+                        </div>
+                        <div class="status">
+                            <span>Un documento del Minsa advierte al gobierno que el coronavirus podría causar
+                                más de 30,000 contagios y 800 muertos.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">14 de marzo<span>
+                        </div>
+                        <div class="status">
+                            <span>Rosario Murillo llama a la movilización “Amor en tiempos del COVID-19”, pese
+                                al avance de la epidemia en Centromérica.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">15 de marzo<span>
+                        </div>
+                        <div class="status">
+                            <span>La iglesia católica limita las procesiones de Semana Santa para contener la
+                                COVID-19.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">18 de marzo<span>
+                        </div>
+                        <div class="status">
+                            <span>Se anuncia el primer caso positivo de COVID-19.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">19 de marzo<span>
+                        </div>
+                        <div class="status">
+                            <span>La vicepresidenta Rosario Murillo mantiene las 800 actividades de su “plan
+                                verano 2020”.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">20 de marzo<span>
+                        </div>
+                        <div class="status">
+                            <span>Segundo caso confirmado de COVID-19.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">26 de marzo<span>
+                        </div>
+                        <div class="status">
+                            <span>Se registró la primera muerte a causa del coronavirus: se trató del estilista
+                                Ossiel Herrera.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">1 de abril<span>
+                        </div>
+                        <div class="status">
+                            <span>Ortega destituye a ministra de Salud en medio de pandemia por COVID-19. Nombra
+                                en el cargo a la doctora Martha Reyes. OPS advierte: COVID-19 “empeorará” en uno
+                                o dos meses.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">7 de abril<span>
+                        </div>
+                        <div class="status">
+                            <span>Banco Centroamericano de Integración Económica (BCIE) entregó 26 000 pruebas
+                                rápidas para diagnosticar la COVID-19.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">10 de abril<span>
+                        </div>
+                        <div class="status">
+                            <span>Daniel Ortega vence su récord de ausencias en el cargo: 34 días. Mantiene
+                                silencio sobre crisis epidemiológica.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">16 de abril<span>
+                        </div>
+                        <div class="status">
+                            <span>Daniel Ortega reaparece tras 34 días de ausencia, pero no dicta medidas
+                                sanitarias, sociales ni económicas frente a COVID-19.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">17 de abril<span>
+                        </div>
+                        <div class="status">
+                            <span>CIDH critica falta de medidas para combatir COVID-19 en Nicaragua.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">19 de abril<span>
+                        </div>
+                        <div class="status">
+                            <span>Ortega impide retorno al país a 92 nicas varados en El Salvador.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">20 de abril<span>
+                        </div>
+                        <div class="status">
+                            <span>Gobierno ordena regreso a clases en medio de la pandemia.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">24 de abril<span>
+                        </div>
+                        <div class="status">
+                            <span>Unidad Médica nicaragüense denuncia que el gobierno subregistra datos de la
+                                epidemia.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">26 de abril<span>
+                        </div>
+                        <div class="status">
+                            <span>Registro independiente eleva a 316 los casos sospechosos de COVID-19.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">1 de mayo<span>
+                        </div>
+                        <div class="status">
+                            <span>Ortega lanza ataque frontal contra la campaña para prevenir COVID-19.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">2 de mayo<span>
+                        </div>
+                        <div class="status">
+                            <span>Observatorio Ciudadano eleva a 431 los casos sospechosos de
+                                Coronavirus.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">6 de mayo<span>
+                        </div>
+                        <div class="status">
+                            <span>Ortega envía a casa a empleados públicos ante COVID-19, sin suspender el
+                                Gobierno.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">8 de mayo<span>
+                        </div>
+                        <div class="status">
+                            <span>Hospitales de Nicaragua al borde de su capacidad por casos de COVID-19.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">9 de mayo<span>
+                        </div>
+                        <div class="status">
+                            <span>Chinandega, el primer brote de COVID-19 en Nicaragua. Autoridades
+                                callan.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">12 de mayo<span>
+                        </div>
+                        <div class="status">
+                            <span>Preso político aislado en área COVID-19 del Hospital Alemán. Mäs de 20 reos
+                                políticos con síntomas.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">15 de mayo<span>
+                        </div>
+                        <div class="status">
+                            <span>EE. UU. llama a sus ciudadanos en Nicaragua a almacenar alimentos y
+                                refugiarse.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">16 de mayo<span>
+                        </div>
+                        <div class="status">
+                            <span>Entierros exprés desafían la falsa normalidad del gobierno.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">18 de mayo<span>
+                        </div>
+                        <div class="status">
+                            <span>Daniel Ortega admite 223 muertes por “neumonía” en doce días.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">19 de mayo<span>
+                        </div>
+                        <div class="status">
+                            <span>Nicaragua inicia curva de contagios con incremento de más de mil por ciento de
+                                casos.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">20 de mayo<span>
+                        </div>
+                        <div class="status">
+                            <span>En tan solo una semana, el Minsa revela que los casos positivos pasaron de 25
+                                a 254 “confirmados o probables”.</span>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="timestamp">
+                            <span class="date">26 de mayo<span>
+                        </div>
+                        <div class="status">
+                            <span>Minsa admite 759 casos y 35 fallecidos por COVID-19 en Nicaragua.</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row pt-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <p>Antes de su actual ausencia, la desaparición más larga de Ortega duró 28 días. Ocurrió en febrero de 2019. Pero esta vez, en medio de la epidemia de coronavirus, los rumores sobre su paradero retumbaron por un hecho: el 2 de abril falleció el diputado Jacinto Suárez, fundador del Frente Sandinista y considerado casi un hermano de Ortega. Suárez compartió celdas con Ortega cuando los dos eran guerrilleros y luchaban contra la dictadura de Somoza (1967-1972 y 1974-1979). La Asamblea Nacional preparó un homenaje póstumo el 3 de abril. La página web del legislativo publicó, previo al acto, un programa de la sesión especial, y detalló que Ortega entregaría una medalla a los familiares del diputado. El presidente de la república también daría un discurso. Sin embargo, antes del evento, el comunicado fue borrado del sitio sin mayores explicaciones. Ni Ortega ni su esposa, la vicepresidenta Murillo, llegaron al homenaje fúnebre.</p>
+            <p>Fuentes allegadas al Frente Sandinista aseguraron que el mandatario sufrió una recaída en su salud, debido a una enfermedad crónica, y descartaron que se trató de COVID-19. Eso sí, las fuentes refieren que el comandante Ortega estuvo frágil y ni siquiera pudieron colocarlo frente a una cámara en su casa para apaciguar el rumor sobre su estado de salud. Pese a que la desaparición de Ortega fue noticia mundial, nadie de su Gobierno explicó qué sucedió. De modo que el presidente de Nicaragua ha estado ausente durante toda la amenaza sanitaria. El liderazgo lo ha asumido su esposa y vicepresidenta.</p>
+        </div>
+    </div>
+</div>
+<div id="mundo-magico-rosario" class="mundo-rosario mt-5 jarallax"></div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <h1 class="covid-tc1 wow animate__animated animate__fadeIn">V</h1>
+            <h1 class="covid- mb-3 wow animate__animated animate__fadeIn mb-5">El mundo mágico de Rosario Murillo
+            </h1>
+        </div>
+    </div>
+    <div class="row pt-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <p>13 de abril de 2020. Los presentadores de los noticieros del Gobierno cortan la transmisión habitual y anuncian: “Amigos, a esta hora establecemos comunicación con la vicepresidenta de Nicaragua, compañera Rosario Murillo”. Al otro lado de la línea una voz enérgica da bendiciones e invoca siete veces “al Señor”. Murillo da cuenta de un milagro: informa que en Nicaragua solo hay tres casos positivos de COVID-19.</p>
+            <p>Ese mismo día, a esa misma hora, el mapa en tiempo real de la Organización Panamericana de la Salud (OPS) expone que Nicaragua suma nueve casos positivos y un muerto. Irónicamente, el organismo basa esos datos en la información oficial que el Gobierno les proporciona. ¿Cómo es posible esa diferencia? La respuesta es tan rocambolesca como la estadística que las autoridades sandinistas comunican a los nicaragüenses.</p>
+            <p>El secretario general del Ministerio de Salud, el doctor Carlos Sáenz, lee a diario un reporte sobre la epidemia, y luego Murillo lo refrenda. O viceversa. Lo llamativo es que en ambos casos, la cifra de contagiados nunca aumenta, más bien disminuye. Las autoridades eliminan de la lista de casos positivos a los pacientes que ya se han curado o se recuperan de la enfermedad, al igual que lo hicieron con el único fallecido registrado hasta ahora. También lo hacen con los sospechosos de contagio. Si a la estadística ingresan nuevos casos, excluyen a los anteriores para mantener al mínimo la cifra.</p>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid my-5">
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/covid-8-80.jpg" class="img-fluid wow animate__animated animate__fadeInRight pt-2" style="width: 100%;" />
+            <small>El portón 2 del hospital Alemán Nicaragüense, uno de los principales centros donde se atienden pacientes de COVID-19. <b>Carlos Herrera | DIVERGENTES.</b></small>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/covid-7-80.jpg" class="img-fluid wow animate__animated animate__fadeInLeft pt-2" style="width: 100%;" />
+            <small>El secretario general del Minsa, el doctor Carlos Sáenz, en sus habituales conferencias de prensa a las que no pueden ingresar periodistas independientes. <b>Cortesía | DIVERGENTES.</b></small>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row pt-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <p>Leonel Argüello, el epidemiólogo más consultado de Nicaragua, señala que nunca se puede borrar del registro un caso positivo, sin importar que el paciente se haya recuperado o muerto. “Eso es como que a un recién nacido le borrés el acta de nacimiento. Todos los que son enfermos confirmados siguen manteniendo el número. Nunca se borran”, insiste. Pero más allá de este juego de cifras, la verdadera preocupación de los epidemiólogos radica en que, ante la opacidad en los datos oficiales, es difícil determinar el verdadero avance del Coronavirus en Nicaragua. Y puede resultar letal.</p>
+            <p>El siete de abril, luego de la avalancha de críticas al régimen Ortega-Murillo y el mutismo de su oficina en Nicaragua, la Organización Panamericana de la Salud (OPS) rompió el silencio. La directora del organismo, Carissa Etienne, criticó la respuesta dada por Nicaragua a la COVID-19. “Tenemos preocupaciones en cuanto a la falta de distanciamiento social, las aglomeraciones masivas; tenemos preocupaciones sobre las pruebas, el rastreo de contactos, sobre el reporte de casos, también nos preocupa sobre lo que vemos cómo inadecuado, en cuanto a control y prevención de la infección”, enfatizó la funcionaria. Sin embargo, Etienne señaló que “es un país soberano y toma decisiones para su gente”.</p>
+            <p>Una de las decisiones “soberanas” más controvertidas, y tratada con absoluto hermetismo por el Gobierno, es la realización de las pruebas para detectar la enfermedad. A la fecha, el Ministerio de Salud sigue sin revelar cuántas pruebas han realizado en total. Ante la presión de expertos independientes por un muestreo más amplio, el doctor Carlos Sáenz, secretario general de Ministerio de Salud, se vio obligado a dar una respuesta. Aunque en realidad fue un titubeo más que una cifra exacta: “Puede andar alrededor, no te podría decir en este momento, andaba como… más o menos unas 200, ciento y pico”.</p>
+        </div>
+    </div>
+    <div class="row pt-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <p>Los epidemiólogos han tomado como parámetro ese número titubeante, y concluyen que es insuficiente para poder monitorear el virus. Los expertos insisten en que sin datos fiables no se puede construir una curva de contagio, ni cómo frenarla. Otra preocupación de los especialistas es el brote de “neumonía atípica” que se da en los hospitales del país. “En mis consultas he notado muchas neumonías atípicas para esta época del año, y no son declaradas sospechosas de Coronavirus”, describe el neumólogo Iván Miranda. El hecho de que no le practiquen pruebas de COVID-19 a pacientes con “neumonía atípica”, crea un subregistro que podría explicar los pocos casos positivos de contagio en Nicaragua, a diferencia de otros países de la región donde las cifras van en aumento.</p>
+            <p><a href="http://www.minsa.gob.ni/index.php/repository/Descargas-MINSA/Direcci%C3%B3n-General-Vigilancia-de-la-Salud-P%C3%BAblica/Boletines/Boletines-2020/Bolet%C3%ADn-Epidemiol%C3%B3gico-Semana-No.-14/" title="Último boletín epidemiológico" target="_blank" class="covid-tc1">En su último
+                    boletín</a> epidemiológico de abril de 2020, el Ministerio de Salud registró 407.836 casos de Insuficiencia Respiratoria Aguda (IRA). Mientras que de neumonía registra 26.739 casos y 81 muertes, sin revelar la etiología de las mismas. Las autoridades presentan las cifras como “buena noticia”, porque según ellos, registra un decrecimiento del 12% en comparación a 2019. Pero la credibilidad del Gobierno sandinista en materia de estadística oficial es nula, y está lastrada desde antes de la explosión de la pandemia de COVID-19. En 2014, el Ministerio de Salud quedó expuesto cuando una investigación periodística probó cómo falseaban las cifras de muertes maternas, con el fin de alcanzar un Objetivo de Desarrollo del Milenio. “Ellos (autoridades) dicen que la neumonía ha reducido, pero es que sus estadísticas no reflejan la realidad”, lamenta el neumólogo Miranda.</p>
+        </div>
+    </div>
+</div>
+<div id="rebelion-medica" class="rebelion-medica mt-5 jarallax"></div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <h1 class="covid-tc1 wow animate__animated animate__fadeIn">VI</h1>
+            <h1 class="covid- mb-3 wow animate__animated animate__fadeIn mb-5">Rebelión médica</h1>
+        </div>
+    </div>
+    <div class="row pt-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <p>La política del Gobierno ante la COVID-19 también ha creado pequeñas rebeliones entre el personal sanitario. Los médicos y enfermeros rechazaron, entre marzo y abril, la “orden superior” de no usar equipos de protección, como mascarillas y trajes, porque según el Gobierno “causan alarma y pánico en la población”. La orden ha sido directa en hospitales capitalinos como el Manolo Morales y el Alemán Nicaragüense. Los funcionarios sanitarios denuncian esta imposición de manera anónima, porque temen represalias y despidos. Sin embargo, dos especialistas del Alemán Nicaragüense renunciaron porque no estuvieron dispuestos a dar consultas desprotegidos. “Mis colegas médicos del sector público tienen miedo de contagiarse; se sienten solos. Yo les he llevado a algunos mascarillas N-95 para que puedan usarlas, ya que en los hospitales públicos no les dan”, relata la doctora Karen Ojeda, una ginecóloga que trabaja en el sector privado. Ante la escasez de equipos de protección, Ojeda busca en el mercado informal suministros para facilitarle a sus colegas del sector público.</p>
+
+            <p>La desobediencia de los trabajadores de la salud ha creado fricción con las autoridades sanitarias, la que aumenta junto al temor de que la epidemia se salga de control. Los doctores consultados para este reportaje se ven en el espejo de Guayaquil, Ecuador, donde los muertos por Coronavirus aparecían tirados en las calles ante el colapso del sistema sanitario. En Managua, hospitales privados como el Monte España han cancelado las cirugías, las consultas externas y estudios programados para tener el máximo disponible de camas. Fuentes del sector salud aseguraron que más de una treintena de médicos y enfermeros han renunciado por temor a contagiarse.</p>
+            <div class="text-center my-5">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/ISNUMOS.png" alt="Infografia" class="img-fluid wow animate__animated animate__fadeIn" />
+            </div>
+            <p>Pese a que el Gobierno actúa con despreocupación ante la COVID-19, a principios de la crisis el mismo Ministerio de Salud emitió un protocolo de preparación. El documento advirtió a la presidencia que el coronavirus provocará en 180 días un total de 32.500 infectados y unos 800 muertos, es decir en 25 semanas. Otra estimación independiente sobre la curva de contagio es más funesta. La Facultad de Medicina del Imperial College London estima que si en Nicaragua no se aplican medidas de mitigación ni distanciamiento social, en un año el 91% de la población sería afecta por el coronavirus, de los cuales fallecerían 24.304 personas.</p>
+            <p>“Los médicos estamos en la primera línea de contención, y si no nos protegemos podemos acabar contagiados y transmitiendo el coronavirus”, expresa una médica del Manolo Morales bajo condición de anonimato. Aunque oficialmente el Gobierno solo reconoce 16 casos positivos, el personal de la salud comenta con obstinación “que el virus ya ha pasado a transmisión comunitaria”.</p>
+            <p>El planteamiento de los expertos sobre “ceguera epidemiológica” fue reforzado entre finales de marzo y la primera semana de abril, cuando las autoridades sanitarias de Cuba —régimen históricamente aliado del sandinista— informó que cinco casos positivos correspondían a cubanos que retornaron a la isla desde Nicaragua. Para los epidemiólogos, estos cinco casos desmontan el discurso oficial. Los cubanos también ponen en entredicho la certeza de la vicepresidenta Murillo de que “el poder de la oración en el país” ha ayudado a sortear la pandemia. Los médicos han identificado focos comunitarios locales en el Aeropuerto Internacional de Managua, en una planta procesadora de Coca Cola, y en las ciudades de Tipitapa y Chinandega.</p>
+        </div>
+    </div>
+</div>
+<div id="falso-profeta" class="falso-profeta mt-5 jarallax"></div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <h1 class="covid-tc1 wow animate__animated animate__fadeIn">VII</h1>
+            <h1 class="covid- mb-3 wow animate__animated animate__fadeIn mb-5">El falso profeta que conjura el virus
+            </h1>
+        </div>
+    </div>
+    <div class="row pt-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <p>El sacerdote Osmán de Jesús Figueroa Castellón encabeza con afán el viacrucis del Viernes Santo en el barrio Villa Miguel Gutiérrez, en Managua. No viste sotana, pero sí una estola anaranjada con detalles dorados que es movida por el viento ardiente de verano. El cura ora a través de los parlantes: “por tus sangrientos pasos, Señor seguirte quiero y si contigo muero, dichoso moriré” … los fieles que responden “piedad, perdón te pido. Pequé mi Dios, pequé”. Son en su mayoría simpatizantes sandinistas. La procesión es escoltada por policías. Avanza por una calle del barrio y uno que otro poblador asoma su cabeza por las ventanas y puertas. </p>
+            <p>Los ciudadanos se extrañan, puesto que la Conferencia Episcopal de Nicaragua (CEN) suspendió el 23 de marzo —tras conocerse el primer caso positivo de coronavirus— las misas y procesiones de Semana Santa. Fue una decisión difícil dada la religiosidad del nicaragüense y la importancia de la cuaresma para el catolicismo. Para los obispos pesó más la amenaza del virus. ¿Por qué el sacerdote Figueroa Castellón desafía a la jerarquía eclesial? En realidad no desobedece, simplemente el hombre finge ser cura. </p>
+            <p>El sacerdote Maykel Monterrey denunció que Figueroa Castellón es un impostor. “No fue aceptado en el seminario para formarse como sacerdote, pero le quedó la obsesión por ser cura. Al parecer se enteró de que en Brasil hay una iglesia, una secta protestante que imita mucho a la Iglesia Católica, que se llama Iglesia Nacional Brasileña, entonces él se hace pasar como sacerdote”, alertó el párroco de la iglesia Nuestra Señora de Candelaria. </p>
+            <div class="text-center my-5">
+                <img src="<?php echo get_template_directory_uri(); ?>/img/covid-9-80.jpg" alt="falso profeta" class="img-fluid" />
+                <small>Osmán de Jesús Figueroa Castellón señalado por la iglesia católica como un falso sacerdote. <br><b>Cortesía | DIVERGENTES.</b></small>
+            </div>
+            <p>El episodio del falso sacerdote es el más hilarante al que recurrió el Gobierno sandinista durante la Semana Santa en medio de la pandemia. Fue una semana clave porque puso a prueba la obstinación, por un lado, del Gobierno por aparentar normalidad y de la ciudadanía, que decidió imponerse una cuarentena obligatoria. </p>
+            <p>Peregrinaciones promovidas por las alcaldías, misas campales, judeas, y viacrucis sin sacerdotes reales. El Lunes Santo, en la ciudad colonial de Granada, al sur del país, nazarenos, soldados romanos, vírgenes dolorosas, una Verónica y una Magdalena abordaron unas lanchas que flotaban en las aguas del Gran Lago Cocibolca. Eran actores que representaron el “viacrucis acuático”, una procesión famosa en Granada, pero que este año fue cancelada por la diócesis de esa zona para prevenir el contagio de la COVID-19. El Gobierno desconoció la cancelación y convocó a unas 400 personas para realizar el “viacrucis acuático”. El obispo de la Diócesis de Granada, monseñor Jorge Solórzano denunció la falsedad de los eventos “pseudo religiosos” y criticó la manipulación de la fe por parte del Gobierno al pretender ignorar la gravedad de la pandemia. Las iglesias evangélicas, aliadas del régimen, no han suspendido sus cultos. </p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid my-5">
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/covid-14.jpg" class="img-fluid wow animate__animated animate__fadeInRight pt-2" />
+            <small>Una carroza fúnebre sale del hospital Sermesa-Bolonia en Managua a realizar un entierro exprés. <br><b>Carlos Herrera | DIVERGENTES.</b></small>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/covid-13.jpg" class="img-fluid wow animate__animated animate__fadeInLeft pt-2" />
+            <small>Familiares del periodista radial Gustavo Bermúdez lloran durante el entierro exprés. <br><b>Carlos Herrera | DIVERGENTES.</b></small>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row pt-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <p>Los nicaragüenses se han impuesto una cuarentena desde el 18 de marzo. Las escuelas privadas suspendieron clases presenciales, los principales centros comerciales cerraron sus tiendas, los mercados funcionan en baja intensidad, fábricas textiles cesaron operaciones y los restaurantes solo ofrecen servicios a domicilio. El sector público labora con normalidad.</p>
+            <p>Algunos voceros del Ministerio de Salud han dicho que el uso de mascarillas y guantes de látex no son necesarios, pero en las calles los ciudadanos usan protección, al punto que dichos insumos médicos escasean en el mercado. La venta informal de mascarillas, alcohol gel y guantes se ha vuelto un negocio fructífero. Los dirigentes barriales del Frente Sandinista no sólo regañaron a los ciudadanos por el uso de mascarillas, sino que en algunos barrios agredieron físicamente a las personas que las portaban. De acuerdo a una decena de denuncias, los sandinistas les arrancaron con violencia las mascarillas a los ciudadanos y los golpearon. “No es necesario”, espetaron los partidarios del Gobierno. Es otra de las formas de “combatir” la COVID-19 en Nicaragua, según el régimen. El gremio médico ve todas estas medidas oficiales con desconcierto. “Podrán esconder la curva de contagio, pero no los muertos”, critica con severidad la médica del Hospital Manolo Morales. “En Nicaragua estamos frente a una curva de la negligencia”, sentencia la doctora.</p>
+        </div>
+    </div>
+</div>
+<div id="trigesimo-cuarto-dia-aparecio" class="ortega-aparecio mt-5 jarallax"></div>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col">
+            <h1 class="covid-tc1 wow animate__animated animate__fadeIn">VIII</h1>
+            <h1 class="covid- mb-3 wow animate__animated animate__fadeIn mb-5">Al trigésimo cuarto día, apareció
+            </h1>
+        </div>
+    </div>
+    <div class="row pt-3">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <p>Ortega resurgió al trigésimo cuarto día. El presidente dio la cara luego de la incertidumbre sobre su prolongada ausencia, en medio de la amenaza sanitaria. El mandatario compareció en cadena nacional de televisión el 16 de abril, acuerpado por su gabinete y la vicepresidenta Murillo. Empezó su discurso sin rodeos: habló por primera vez de la COVID-19, minimizó el impacto de la pandemia e hizo un guiño al “milagro” invocado por su mujer: se congratuló porque en el país solo se registra un solo muerto por coronavirus.</p>
+            <p>El presidente Ortega no reveló cuál es el plan de contingencia para enfrentar al Coronavirus, pero en cambio despotricó contra las “bombas atómicas”. El presidente aprovechó su reaparición para aclarar que no declarará cuarentena, porque sino “el país desaparece” en el sentido económico. Tampoco acatará las medidas preventivas recomendadas por la Organización Mundial de la Salud. Dijo que Nicaragua enfrentará a la COVID-19 “con sus recursos limitados y con paciencia”. Los nicaragüenses lo escucharon consternados. Pocos días después, la bomba de “amor”, propaganda y negligencia del gobierno Ortega Murillo explotó en los hospitales públicos. Decenas de personas que fallecieron a causa de la pandemia se fueron en el precipicio de sus tumbas, cavadas con urgencia por pesadas palas mecánicas en los cementerios. </p>
+        </div>
+    </div>
+</div>
+<div class="container creditos my-5">
+    <div class="row">
+        <div class="col">
+            <h1>CRÉDITOS</h1>
+            <p>Texto: Wilfredo Miranda Aburto
+                <br> Edición de texto: Carlos Salinas Maldonado
+                <br> Fotografía: Carlos Herrera
+                <br> Diseño UI/UX: Ricardo Arce
+                
+                <br> Producción multimedia: Néstor Andrés Arce</p>
+        </div>
+    </div>
+    </section>
+
+    <?php get_footer('covid'); ?>
+
+    <script>
+        $(window).on("scroll", function() {
+            if ($(window).scrollTop() > 200) {
+                $("header").addClass("bg-header");
+            } else {
+                //remove the background property so it comes transparent again (defined in your css)
+                $("header").removeClass("bg-header");
+            }
+        });
+    </script>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920.02 1242.32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(-0.38 -19.01)">
+      <rect class="cls-1" x="0.38" y="19.01" width="1920.02" height="1242.32"/>
+    </clipPath>
+  </defs>
+  <g id="estudiantes_2">
+    <g id="_1_estudiantes_vs_delincuentes.psd" data-name="1_estudiantes vs delincuentes.psd">
+      <g class="cls-2">
+        <image id="Layer_4" data-name="Layer 4" width="2700" height="1747" transform="scale(0.71)" xlink:href="estudiantes1.png"/>
+      </g>
+    </g>
+  </g>
+  <g id="estudiantes_1">
+    <image width="3231" height="3094" transform="translate(56.93 246.97) scale(0.27)" xlink:href="../../../../../../../DIVERGENTES/JUSTICIA%20Y%20TRANSICION/JUSTICIA%20Y%20TRANSICION_2_Folder/Links/I-1.png"/>
+  </g>
+</svg>

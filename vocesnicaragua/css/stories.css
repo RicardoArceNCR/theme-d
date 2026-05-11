@@ -1,0 +1,336 @@
+body.story-body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  padding: 1rem 0;
+  background-color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.bg-image {
+  position: absolute;
+  width: 130vw;
+  height: 130vh;
+  top: 50%;
+  left: 50%;
+  overflow: hidden;
+  background-color: #000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(40px);
+  -webkit-filter: blur(40px);
+  transform: translate(-50%, -50%);
+}
+.story-01 .bg-image {
+  background-image: url(../media/images/1/1_0.jpg);
+}
+.story-02 .bg-image {
+  background-image: url(../media/images/3/3_0.jpg);
+}
+.story-03 .bg-image {
+  background-image: url(../media/images/5/5_0.jpg);
+}
+.story-04 .bg-image {
+  background-image: url(../media/images/7/7_0.jpg);
+}
+.story-wrapper {
+  position: relative;
+  margin: 0 auto;
+  height: 100%;
+}
+.story {
+  height: 100%;
+}
+.story .story-page {
+  
+}
+.story .story-page .media-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.story .story-page .media-layer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.story .story-page .media-layer video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.story .story-page .content-layer .card-title {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.3em;
+  text-align: center;
+  color: #FFF;
+  padding: 1rem;
+}
+.story .story-page .content-layer .card-title span {
+  display: block;
+  font-weight: 400;
+  font-size: 24px;
+}
+.story .story-page .content-layer .card-title .next-story {
+  background-color: transparent;
+  outline: 0;
+  border: 1px solid #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #FFF;
+  padding: 8px 18px;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  cursor: pointer;
+}
+.story .story-page .content-layer .card-title .next-story i {
+  margin-left: 10px;
+}
+
+
+
+.story-wrapper .slick-list, .story-wrapper .slick-track {
+  height: 100%;
+}
+.story-wrapper .slick-list {
+  border-radius: 20px;
+}
+.story-wrapper .slick-arrow {
+  position: absolute;
+  z-index: 1;
+  width: 48px;
+  height: 48px;
+  background-color: #FFF;
+  border-radius: 50%;
+  border: 0;
+  top: calc(50% - 24px);
+  font-size: 0;
+  line-height: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.story-wrapper .slick-prev {
+  right: calc(100% + 20px);
+}
+.story-wrapper .slick-prev::before {
+  font: var(--fa-font-solid);
+  font-weight: 900;
+  content: '\f053';
+  font-size: 24px;
+  opacity: 1;
+}
+.story-wrapper .slick-next {
+  left: calc(100% + 20px);
+}
+.story-wrapper .slick-next::before {
+  font: var(--fa-font-solid);
+  font-weight: 900;
+  content: '\f054';
+  font-size: 24px;
+  opacity: 1;
+}
+.story-wrapper .slick-arrow.slick-disabled {
+  cursor: initial;
+  opacity: 0.1;
+}
+.story-wrapper .slick-dots {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 1rem;
+  padding: 0 0.75rem;
+}
+.story-wrapper .slick-dots li {
+  display: block;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  padding: 2px;
+  line-height: 0;
+  font-size: 0;
+}
+.story-wrapper .slick-dots li button {
+  background-color: #FFF;
+  border: 0;
+  outline: 0;
+  font-size: 0;
+  line-height: 0;
+  height: 2px;
+  padding: 0;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.story-wrapper .slick-dots li.slick-active ~ li button {
+  opacity: 0.4;
+}
+
+
+/* Final story */
+.final-story {
+
+}
+.final-story .content-layer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.final-story .content-layer > .columns {
+  width: calc(100% + 1.5rem);
+}
+.inner-story {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 177.77%;
+}
+.inner-story .inner-media {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.inner-story .inner-media img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.inner-story .inner-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 0.75rem;
+  display: flex;
+  align-items: flex-end;
+}
+.inner-story .inner-content .inner-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3em;
+  text-align: center;
+}
+.inner-story .inner-content .inner-title span {
+  font-weight: 400;
+  font-size: 16px;
+  display: block;
+}
+.final-story a {
+  color: #FFF;
+}
+.final-story a .txt {
+  font-size: 16px;
+  text-align: center;
+  margin: 0.75rem 0;
+}
+.final-story a .icn {
+
+}
+.final-story a .icn img {
+  width: 42px;
+  margin: 0 auto;
+}
+.final-story a.back-home {
+  display: inline-block;
+  font-size: 16px;
+  background-color: rgba(255,255,255,0.25);
+  color: #FFF;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 0.5rem auto 0;
+}
+
+
+
+
+
+
+/* Responsiveness */
+
+
+/* Desktop */
+@media screen and (min-width: 1009px) {
+  
+}
+
+/* Full HD */
+@media screen and (min-width: 1440px) {
+  
+}
+
+/* Touch */
+@media screen and (max-width: 1008px) {
+  
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1008px) {
+  .story .story-page .content-layer .card-title {
+    font-size: 32px;
+  }
+  .inner-story .inner-content .inner-title {
+    font-size: 22px;
+  }
+  .inner-story .inner-content .inner-title span {
+    font-size: 18px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .for-story {
+    padding: 0;
+  }
+  .story-wrapper {
+    width: 100%;
+  }
+  .story-wrapper .slick-list {
+    border-radius: 0;
+  }
+  .story-wrapper .slick-prev {
+    right: unset;
+    left: 1rem;
+  }
+  .story-wrapper .slick-next {
+    left: unset;
+    right: 1rem;
+  }
+  .story-wrapper .slick-dots {
+    top: unset;
+    bottom: 2.5rem;
+  }
+  .story .story-page .content-layer .card-title {
+    padding-bottom: 4.5rem;
+  }
+  .inner-story .inner-content .inner-title {
+    font-size: 20px;
+  }
+}
+
+/* Mini mobile, haha */
+@media screen and (max-width: 320px) {
+
+}

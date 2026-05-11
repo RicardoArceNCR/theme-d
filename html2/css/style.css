@@ -1,0 +1,19 @@
+
+
+.titulo-seccion{
+    color: #FF004A;
+}
+
+.post_by{
+    font-size: .875em;
+    color: #007AFF;
+}
+
+a.card-title{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #002B44;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Memphis';
+    src: url('Memphis-ExtraBold.eot');
+    src: url('Memphis-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('Memphis-ExtraBold.woff2') format('woff2'),
+    url('Memphis-ExtraBold.woff') format('woff'),
+    url('Memphis-ExtraBold.ttf') format('truetype'),
+    url('/divergentes/css/fonts/Memphis-ExtraBold.svg#Memphis-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}

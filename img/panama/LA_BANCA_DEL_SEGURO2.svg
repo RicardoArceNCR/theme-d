@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1401.17 1821.66">
+  <defs>
+    <radialGradient id="radial-gradient" cx="954.91" cy="1921.65" r="116.58" gradientTransform="translate(-209.95 1655.42) scale(1 0.08)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#595959"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <image id="image" width="277" height="270" xlink:href="../../../../../panama/LA_BANCA_DEL_SEGURO_Folder/Links/BILL_GENERAL.png"/>
+    <image id="image-2" width="119" height="116" xlink:href="../../../../../panama/LA_BANCA_DEL_SEGURO_Folder/Links/BILL_4.png"/>
+  </defs>
+  <g id="SOMBRA">
+    <ellipse cx="744.96" cy="1809.15" rx="164.4" ry="12.51" style="fill: url(#radial-gradient)"/>
+  </g>
+  <g id="MONEDA_2">
+    <image width="182" height="189" transform="translate(654.5 1626.5)" xlink:href="../../../../../panama/LA_BANCA_DEL_SEGURO_Folder/Links/MONEDA_2.png"/>
+  </g>
+  <g id="EMBUDO_1">
+    <image width="261" height="374" transform="translate(610.46 745.15)" xlink:href="../../../../../panama/LA_BANCA_DEL_SEGURO_Folder/Links/EMBUDO_1.png"/>
+  </g>
+  <g id="EMBUDO_2">
+    <image width="51" height="180" transform="translate(719.46 1291.77)" xlink:href="../../../../../panama/LA_BANCA_DEL_SEGURO_Folder/Links/EMBUDO_2.png"/>
+  </g>
+  <g id="EDIFICIO_1">
+    <image width="162" height="629" transform="translate(654.96)" xlink:href="../../../../../panama/LA_BANCA_DEL_SEGURO_Folder/Links/EDIFICIO_3.png"/>
+  </g>
+  <g id="EDIFICIO_2">
+    <image width="241" height="528" transform="translate(924.38 130.2)" xlink:href="../../../../../panama/LA_BANCA_DEL_SEGURO_Folder/Links/EDIFICIO_2.png"/>
+  </g>
+  <g id="EDIFICIO_3">
+    <image width="271" height="645" transform="translate(301.18 38.86)" xlink:href="../../../../../panama/LA_BANCA_DEL_SEGURO_Folder/Links/EDIFICIO_1.png"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <image width="443" height="189" transform="translate(0 139.76)" xlink:href="../../../../../panama/LA_BANCA_DEL_SEGURO_Folder/Links/NUBE_1.png"/>
+    <image width="443" height="189" transform="translate(545.67 103.38)" xlink:href="../../../../../panama/LA_BANCA_DEL_SEGURO_Folder/Links/NUBE_2%20(1).png"/>
+    <image width="360" height="202" transform="translate(1041.17 156.36)" xlink:href="../../../../../panama/LA_BANCA_DEL_SEGURO_Folder/Links/NUBE_3%20(1).png"/>
+    <image width="378" height="430" transform="translate(552.96 951.77)" xlink:href="../../../../../panama/LA_BANCA_DEL_SEGURO_Folder/Links/EDIFICIO_CSS.png"/>
+  </g>
+  <g id="BILL_1">
+    <use transform="translate(859.47 716.19) rotate(41.85) scale(0.31)" xlink:href="#image"/>
+  </g>
+  <g id="BILL_1_copy" data-name="BILL_1 copy">
+    <use transform="translate(752.78 670.15) rotate(41.85) scale(0.2)" xlink:href="#image"/>
+  </g>
+  <g id="BILL_1_copy_2" data-name="BILL_1 copy 2">
+    <use transform="matrix(0.2, 0.21, -0.21, 0.2, 638.87, 672.8)" xlink:href="#image"/>
+  </g>
+  <g id="BILL_1_copy_3" data-name="BILL_1 copy 3">
+    <use transform="translate(761.23 589.33) rotate(0.76) scale(0.42)" xlink:href="#image"/>
+  </g>
+  <g id="BILL_1_copy_4" data-name="BILL_1 copy 4">
+    <use transform="translate(720.69 590.95) rotate(47.31) scale(0.48)" xlink:href="#image-2"/>
+  </g>
+  <g id="BILL_1_copy_9" data-name="BILL_1 copy 9">
+    <use transform="matrix(0.14, 0.3, -0.3, 0.14, 675.48, 544.44)" xlink:href="#image"/>
+  </g>
+  <g id="BILL_1_copy_8" data-name="BILL_1 copy 8">
+    <use transform="translate(607.68 560.54) rotate(86.85) scale(0.48)" xlink:href="#image-2"/>
+  </g>
+  <g id="BILL_1_copy_7" data-name="BILL_1 copy 7">
+    <use transform="translate(956.11 504.69) rotate(69.83) scale(0.43)" xlink:href="#image-2"/>
+  </g>
+  <g id="BILL_1_copy_6" data-name="BILL_1 copy 6">
+    <use transform="translate(852.46 487.88) rotate(46.97) scale(0.45)" xlink:href="#image-2"/>
+  </g>
+  <g id="BILL_1_copy_5" data-name="BILL_1 copy 5">
+    <use transform="translate(746.67 468.92) rotate(45.36) scale(0.28)" xlink:href="#image"/>
+    <use transform="matrix(0.19, 0.19, -0.19, 0.19, 710.62, 326.76)" xlink:href="#image"/>
+  </g>
+  <g id="BILL_1_copy_19" data-name="BILL_1 copy 19">
+    <use transform="translate(662.21 464.7) rotate(46.97) scale(0.45)" xlink:href="#image-2"/>
+  </g>
+  <g id="BILL_1_copy_18" data-name="BILL_1 copy 18">
+    <use transform="translate(552.44 474.54) rotate(27.23) scale(0.52)" xlink:href="#image-2"/>
+  </g>
+  <g id="BILL_1_copy_17" data-name="BILL_1 copy 17">
+    <use transform="translate(986.08 439.39) rotate(105.87) scale(0.46)" xlink:href="#image-2"/>
+  </g>
+  <g id="BILL_1_copy_16" data-name="BILL_1 copy 16">
+    <use transform="matrix(0.31, 0.31, -0.31, 0.31, 867.64, 405.18)" xlink:href="#image-2"/>
+  </g>
+  <g id="BILL_1_copy_15" data-name="BILL_1 copy 15">
+    <use transform="translate(806.82 442.52) rotate(44.86) scale(0.39)" xlink:href="#image-2"/>
+  </g>
+  <g id="BILL_1_copy_14" data-name="BILL_1 copy 14">
+    <use transform="translate(769.05 403.31) rotate(75.73) scale(0.31)" xlink:href="#image-2"/>
+  </g>
+  <g id="BILL_1_copy_13" data-name="BILL_1 copy 13">
+    <use transform="translate(606.45 395.96) rotate(50.6) scale(0.54)" xlink:href="#image-2"/>
+  </g>
+  <g id="BILL_1_copy_12" data-name="BILL_1 copy 12">
+    <use transform="translate(486.67 373.9) rotate(34.36) scale(0.54)" xlink:href="#image-2"/>
+  </g>
+  <g id="BILL_1_copy_11" data-name="BILL_1 copy 11">
+    <use transform="translate(1002.68 342.42) rotate(70.26) scale(0.46)" xlink:href="#image-2"/>
+  </g>
+</svg>
