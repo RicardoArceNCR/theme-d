@@ -162,6 +162,16 @@ add_action('widgets_init', 'divergentes_widgets_init');
  */
 function divergentes_scripts()
 {
+	// Design System Tokens — generado desde Figma via Style Dictionary.
+	// Cargar primero para que bootstrap-bridge y nosotros.css puedan heredar las variables.
+	$tokens_file = get_stylesheet_directory() . '/design-system/tokens/build/tokens.css';
+	wp_enqueue_style(
+		'divergentes-design-tokens',
+		get_stylesheet_directory_uri() . '/design-system/tokens/build/tokens.css',
+		array(),
+		file_exists( $tokens_file ) ? filemtime( $tokens_file ) : _S_VERSION
+	);
+
 	wp_enqueue_style('divergentes-style', get_stylesheet_uri(), array(), _S_VERSION);
 	wp_style_add_data('divergentes-style', 'rtl', 'replace');
 	wp_enqueue_style('gotham-font', get_template_directory_uri() . '/css/fonts/gothamp.css');

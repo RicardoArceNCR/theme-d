@@ -116,7 +116,11 @@
 .nos-hero__title { margin: 0; line-height: 0.93; }
 .nos-hero__line {
   display: block; font-family: var(--font-display);
-  font-size: var(--text-display-xl); text-transform: uppercase;
+  font-size: clamp(
+  64px,
+  7vw,
+  calc(var(--text-hero-xl) * 1px)
+  ); text-transform: uppercase;
   color: var(--text-color-primary); letter-spacing: var(--tracking-tight);
 }
 .nos-hero__line--primary {
@@ -124,7 +128,11 @@
 }
 .nos-hero__line--accent {
   font-family: var(--font-body); font-style: italic; font-weight: 600;
-  color: var(--brand-main); font-size: var(--text-display-xl);
+  color: var(--brand-main); font-size: clamp(
+  64px,
+  7vw,
+  calc(var(--text-hero-xl) * 1px)
+  );
   text-transform: none; letter-spacing: var(--tracking-tight);
 }
 .nos-hero__lede { display: flex; flex-direction: column; gap: var(--sp-8); }
@@ -154,7 +162,15 @@
   position: relative;
   overflow: hidden;
   isolation: isolate;
-  padding-block: var(--sp-2);
+  padding: var(--sp-4);
+  border-radius: var(--radius-md);
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--background-subtle) 45%, transparent),
+      transparent
+    );
+  border: 1px solid color-mix(in srgb, var(--border-subtle) 55%, transparent);
 }
 
 .nos-stat::before {
@@ -180,12 +196,12 @@
   z-index: -1;
   background:
     linear-gradient(
-      90deg,
-      transparent,
-      color-mix(in srgb, var(--brand-main) 8%, transparent),
-      transparent
+      110deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.72) 45%,
+      transparent 70%
     );
-  transform: translateX(-120%);
+  transform: translateX(-130%);
   opacity: 0;
   pointer-events: none;
 }
@@ -225,7 +241,7 @@
 
 .nos-stat.is-visible::after {
   opacity: 1;
-  animation: nos-stat-scan 1800ms var(--ease-default) 1;
+  animation: nos-stat-light-sweep 1400ms var(--ease-default) 1;
 }
 
 .nos-stat.is-visible .nos-stat__value {
@@ -233,12 +249,12 @@
   transform: translateY(0);
 }
 
-@keyframes nos-stat-scan {
+@keyframes nos-stat-light-sweep {
   from {
-    transform: translateX(-120%);
+    transform: translateX(-130%);
   }
   to {
-    transform: translateX(120%);
+    transform: translateX(130%);
   }
 }
 
