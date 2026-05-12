@@ -121,7 +121,7 @@
   7vw,
   calc(var(--text-hero-xl) * 1px)
   ); text-transform: uppercase;
-  color: var(--text-color-primary); letter-spacing: var(--tracking-tight); font-weight: var(--weight-extrabold);
+  color: var(--text-color-primary); letter-spacing: var(--tracking-tight); 
 }
 .nos-hero__line--primary {
   color: var(--text-color-primary);
@@ -395,7 +395,7 @@
   color: var(--text-color-primary); margin: 0 0 3px; line-height: var(--leading-snug);
 }
 .nos-card__role {
-  font-family: var(--font-display); font-size: var(--text-sm); font-weight: var(--weight-medium);
+  font-family: var(--font-display); font-size: var(--text-sm); font-weight: var(--weight-medium); line-height: 1.3rem;
   color: var(--person-card-role-color); margin: 0 0 var(--sp-2); letter-spacing: var(--tracking-wide);
 }
 .nos-card__bio {

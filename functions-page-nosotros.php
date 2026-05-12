@@ -43,12 +43,12 @@ add_action( 'wp_enqueue_scripts', function() {
     );
 
     // Script de la página — depende de authors
-    $nosotros_file = get_stylesheet_directory() . '/css/nosotros.js';
+    $nosotros_js = get_stylesheet_directory() . '/js/nosotros.js';
     wp_enqueue_script(
         'divergentes-nosotros-script',
-        get_template_directory_uri() . '/css/nosotros.js',
+        get_template_directory_uri() . '/js/nosotros.js',
         array( 'divergentes-authors-data' ),
-        file_exists( $nosotros_file ) ? filemtime( $nosotros_file ) : '1.0.0',
+        file_exists( $nosotros_js ) ? filemtime( $nosotros_js ) : '1.0.0',
         true
     );
 
