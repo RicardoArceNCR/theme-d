@@ -374,6 +374,10 @@
       "label": {
         "$type": "float",
         "$value": 13
+      },
+      "2xs": {
+        "$type": "float",
+        "$value": 10
       }
     },
     "weight": {
@@ -479,7 +483,7 @@
     "hero": {
       "xl": {
         "$type": "float",
-        "$value": 82
+        "$value": 92
       }
     }
   },

@@ -121,7 +121,7 @@
   7vw,
   calc(var(--text-hero-xl) * 1px)
   ); text-transform: uppercase;
-  color: var(--text-color-primary); letter-spacing: var(--tracking-tight);
+  color: var(--text-color-primary); letter-spacing: var(--tracking-tight); font-weight: var(--weight-extrabold);
 }
 .nos-hero__line--primary {
   color: var(--text-color-primary);
@@ -135,9 +135,9 @@
   );
   text-transform: none; letter-spacing: var(--tracking-tight);
 }
-.nos-hero__lede { display: flex; flex-direction: column; gap: var(--sp-8); }
+.nos-hero__lede { display: flex; flex-direction: column; gap: var(--sp-8); padding-top: var(--sp-6); }
 .nos-hero__lede > p {
-  font-family: var(--font-body); font-size: var(--text-lg); line-height: var(--leading-relaxed);
+  font-family: var(--font-display); font-size: var(--text-lg); line-height: var(--leading-relaxed);
   color: var(--text-color-primary); margin: 0;
 }
 .nos-hero__stats {
@@ -207,12 +207,12 @@
 }
 
 .nos-stat__label {
-  font-family: var(--font-ui);
-  font-size: 10px;
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
   font-weight: var(--weight-semibold);
   text-transform: uppercase;
   letter-spacing: var(--tracking-wider);
-  color: var(--text-tertiary);
+  color: var(--text-color-tertiary);
   margin: 0;
 }
 
@@ -223,7 +223,7 @@
   font-size: var(--text-display-lg);
   font-weight: var(--weight-medium);
   line-height: 1;
-  color: var(--text-primary);
+  color: var(--text-color-primary);
   margin: 0;
   font-variant-numeric: tabular-nums;
   letter-spacing: var(--tracking-tight);
@@ -285,15 +285,21 @@
   margin-left: var(--sp-6);
 }
 .nos-sidenav__label {
-  font-family: var(--font-mono); font-size: 10px; text-transform: uppercase;
-  letter-spacing: var(--hero-stat-label-tracking); color: var(--text-color-tertiary);
-  display: block; margin-bottom: var(--sp-4); letter-spacing: var(--tracking-wider);
+  font-family: var(--font-display);
+  font-size: var(--text-2xs);
+  font-weight: var(--weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  color: var(--text-color-tertiary);
+  margin: 0;
+  display: block;
+  margin-bottom: var(--sp-4);
 }
 .nos-sidenav a {
   display: block; font-family: var(--font-display); font-size: var(--text-sm); font-weight: 500;
   color: var(--text-color-secondary); text-decoration: none;
   padding: 5px 0 5px var(--sp-3);
-  margin-left: -13px; border-left: 2px solid transparent;
+  margin-left: -13px; border-left: 3px solid transparent;
   line-height: 1.35;
   transition: color var(--duration-normal) ease, border-color var(--duration-normal) ease;
 }
@@ -326,7 +332,7 @@
   letter-spacing: var(--tracking-wide); flex: 1; line-height: var(--leading-snug);
 }
 .nos-dept__count {
-  font-family: var(--font-mono); font-size: 11px; color: var(--text-color-tertiary);
+  font-family: var(--font-display); font-size: var(--text-xs); color: var(--text-color-tertiary);
 }
 
 /* Grillas */
@@ -393,7 +399,7 @@
   color: var(--person-card-role-color); margin: 0 0 var(--sp-2); letter-spacing: var(--tracking-wide);
 }
 .nos-card__bio {
-  font-family: var(--font-body); font-size: var(--text-body-md); line-height: var(--leading-normal);
+  font-family: var(--font-display); font-size: var(--text-sm) !important; line-height: var(--leading-normal);
   color: var(--text-color-secondary); margin: 0 0 var(--sp-3);
   display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
 }
@@ -401,7 +407,7 @@
   display: inline-flex; align-items: center; gap: var(--space-xs);
   font-family: var(--font-mono); font-size: var(--text-xs); color: var(--text-color-tertiary);
 }
-.nos-card__location::before { content: '◎'; color: var(--brand-main); font-size: 9px; }
+.nos-card__location::before { content: '◎'; color: var(--brand-main); font-size: var(--text-md) !important; line-height: 1; vertical-align: middle; flex-shrink: 0; }
 
 /* ─── BANDA DE FINANZAS ──────────────────────────────────────────────────── */
 .nos-finance {
@@ -483,6 +489,11 @@
   .nos-grid-2      { grid-template-columns: repeat(2, 1fr); gap: var(--sp-4); }
   .nos-finance__inner { flex-direction: column; align-items: flex-start; gap: var(--sp-5); }
   .nos-finance__dept  { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.08); padding-right: 0; padding-bottom: var(--sp-5); }
+  .nos-hero__lede { padding-top: 0; }
+  .nos-hero__stats { gap: var(--sp-1); }
+  .nos-stat__label {
+    letter-spacing: var(--tracking-normal);
+  }
 }
 @media (max-width: 540px) {
   .nos-grid-3,
