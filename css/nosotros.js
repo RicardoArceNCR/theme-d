@@ -96,6 +96,35 @@
         statsObserver.observe(stat);
       });
     }
+
+    // Inyectar fotos desde window.AUTHORS
+    if (window.AUTHORS && window.AUTHORS.length) {
+      var themeUrl = (window.NosotrosConfig && window.NosotrosConfig.themeUrl) ? window.NosotrosConfig.themeUrl : '';
+
+      window.AUTHORS.forEach(function (author) {
+        // Buscar la tarjeta por el slug en data-author-slug
+        var card = document.querySelector('[data-author-slug="' + author.slug + '"]');
+        if (!card) return;
+
+        var wrap = card.querySelector('.nos-card__photo-wrap');
+        var initials = card.querySelector('.nos-card__initials');
+        if (!wrap || !author.photo) return;
+
+        var img = document.createElement('img');
+        img.className = 'nos-card__photo';
+        img.src = themeUrl + '/' + author.photo;
+        img.alt = author.name;
+        img.loading = 'lazy';
+        img.decoding = 'async';
+
+        // Reemplazar iniciales con la foto
+        if (initials) {
+          wrap.replaceChild(img, initials);
+        } else {
+          wrap.insertBefore(img, wrap.firstChild);
+        }
+      });
+    }
   });
 
 })();

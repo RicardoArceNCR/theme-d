@@ -32,11 +32,31 @@ add_action( 'wp_enqueue_scripts', function() {
         file_exists( $nosotros_file ) ? filemtime( $nosotros_file ) : '1.0.0'
     );
 
+    // Authors data — debe cargar ANTES que nosotros.js
+    $authors_file = get_stylesheet_directory() . '/js/authors.js';
+    wp_enqueue_script(
+        'divergentes-authors-data',
+        get_template_directory_uri() . '/js/authors.js',
+        array(),
+        file_exists( $authors_file ) ? filemtime( $authors_file ) : '1.0.0',
+        true
+    );
+
+    // Script de la página — depende de authors
+    $nosotros_file = get_stylesheet_directory() . '/css/nosotros.js';
     wp_enqueue_script(
         'divergentes-nosotros-script',
         get_template_directory_uri() . '/css/nosotros.js',
-        array(),
-        '1.0.0',
+        array( 'divergentes-authors-data' ),
+        file_exists( $nosotros_file ) ? filemtime( $nosotros_file ) : '1.0.0',
         true
+    );
+
+    wp_localize_script(
+        'divergentes-nosotros-script',
+        'NosotrosConfig',
+        array(
+            'themeUrl' => get_template_directory_uri(),
+        )
     );
 }, 20 );

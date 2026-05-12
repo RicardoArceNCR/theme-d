@@ -116,7 +116,7 @@ get_header(); // Header global de Divergentes — no modificar.
       </div>
       <div class="nos-grid-2">
 
-        <div class="nos-card">
+        <div class="nos-card" data-author-slug="nestor-arce">
           <div class="nos-card__photo-wrap">
             <?php /* Cuando haya foto: <img class="nos-card__photo" src="..." alt="Héctor Aarón Moe Aburto"> */ ?>
             <div class="nos-card__initials">HA</div>
@@ -131,7 +131,7 @@ get_header(); // Header global de Divergentes — no modificar.
           <span class="nos-card__location">San José, Costa Rica</span>
         </div>
 
-        <div class="nos-card">
+        <div class="nos-card" data-author-slug="carlos-herrera">
           <div class="nos-card__photo-wrap">
             <div class="nos-card__initials">CA</div>
             <div class="nos-card__social">
@@ -157,7 +157,7 @@ get_header(); // Header global de Divergentes — no modificar.
       </div>
       <div class="nos-grid-2">
 
-        <div class="nos-card">
+        <div class="nos-card" data-author-slug="moises-martinez">
           <div class="nos-card__photo-wrap">
             <div class="nos-card__initials">DP</div>
             <div class="nos-card__social">
@@ -183,7 +183,7 @@ get_header(); // Header global de Divergentes — no modificar.
       </div>
       <div class="nos-grid-2">
 
-        <div class="nos-card">
+        <div class="nos-card" data-author-slug="wilfredo-miranda">
           <div class="nos-card__photo-wrap">
             <div class="nos-card__initials">WM</div>
             <div class="nos-card__social">
@@ -222,7 +222,7 @@ get_header(); // Header global de Divergentes — no modificar.
       </div>
       <div class="nos-grid-3">
 
-        <div class="nos-card">
+        <div class="nos-card" data-author-slug="alicia-henriquez">
           <div class="nos-card__photo-wrap">
             <div class="nos-card__initials">AH</div>
             <div class="nos-card__social">
@@ -236,7 +236,7 @@ get_header(); // Header global de Divergentes — no modificar.
           <span class="nos-card__location">San José, Costa Rica</span>
         </div>
 
-        <div class="nos-card">
+        <div class="nos-card" data-author-slug="miguel-gutierrez">
           <div class="nos-card__photo-wrap">
             <div class="nos-card__initials">MG</div>
             <div class="nos-card__social">
@@ -249,7 +249,7 @@ get_header(); // Header global de Divergentes — no modificar.
           <span class="nos-card__location">Bogotá, Colombia</span>
         </div>
 
-        <div class="nos-card">
+        <div class="nos-card" data-author-slug="jareth-gutierrez">
           <div class="nos-card__photo-wrap">
             <div class="nos-card__initials">JB</div>
             <div class="nos-card__social">
@@ -276,7 +276,7 @@ get_header(); // Header global de Divergentes — no modificar.
           <span class="nos-card__location">San José, Costa Rica</span>
         </div>
 
-        <div class="nos-card">
+        <div class="nos-card" data-author-slug="aurora-martinez">
           <div class="nos-card__photo-wrap">
             <div class="nos-card__initials">AC</div>
             <div class="nos-card__social">
@@ -446,7 +446,7 @@ get_header(); // Header global de Divergentes — no modificar.
       </div>
       <div class="nos-grid-2">
 
-        <div class="nos-card">
+        <div class="nos-card" data-author-slug="francisco-centeno">
           <div class="nos-card__photo-wrap">
             <div class="nos-card__initials">FQ</div>
             <div class="nos-card__social">
@@ -460,7 +460,7 @@ get_header(); // Header global de Divergentes — no modificar.
           <span class="nos-card__location">Medellín, Colombia</span>
         </div>
 
-        <div class="nos-card">
+        <div class="nos-card" data-author-slug="ricardo-arce">
           <div class="nos-card__photo-wrap">
             <div class="nos-card__initials">FA</div>
             <div class="nos-card__social">

@@ -483,7 +483,7 @@
     "hero": {
       "xl": {
         "$type": "float",
-        "$value": 92
+        "$value": 104
       }
     }
   },
