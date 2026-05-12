@@ -353,13 +353,13 @@ window.AUTHORS = [
   },
   {
     slug: "francisco-centeno",
-    name: "Francisco Centeno",    photo: "img/nosotros/francisco-centeno.webp",
+    name: "Fran Zen",             photo: "img/nosotros/francisco-centeno.webp",
 
     role: "Desarrollador Full-Stack · Líder de Infraestructura",
     location: "Remoto",
     short: "Gerente de TI y desarrollador full-stack con más de 10 años construyendo, manteniendo y asegurando plataformas digitales de alto tráfico, aplicaciones móviles y sistemas en tiempo real.",
     bio: [
-      "Francisco Centeno es Gerente de TI y desarrollador full-stack con más de 10 años de experiencia construyendo, manteniendo y asegurando plataformas digitales de alto tráfico, aplicaciones móviles y sistemas en tiempo real.",
+      "Fran Zen es Gerente de TI y desarrollador full-stack con más de 10 años de experiencia construyendo, manteniendo y asegurando plataformas digitales de alto tráfico, aplicaciones móviles y sistemas en tiempo real.",
       "Está especializado en WordPress a escala, infraestructura en la nube, optimización de rendimiento y desarrollo a medida con Laravel, Node.js, Next.js y Flutter. Su trabajo reciente también incluye integración de IA, automatización de flujos y sistemas interactivos para entornos editoriales, operativos y de eventos en vivo.",
       "Lidera el desarrollo, los servidores, la infraestructura y la seguridad de la plataforma digital de Divergentes desde 2020."
     ],

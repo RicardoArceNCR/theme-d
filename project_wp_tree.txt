@@ -1,0 +1,1259 @@
+.
+├── 404.php
+├── CLAUDE.md
+├── LICENSE
+├── README.md
+├── Zhukov-Ortega-Murillo4.mp4
+├── acf-json
+│   ├── acf-export-2020-06-02.json
+│   ├── group_5ed59bbd21e0a.json
+│   ├── group_5f3211d865347.json
+│   ├── group_5f3c567f72903.json
+│   ├── group_5f46deb513f0e.json
+│   ├── group_608b338c32229.json
+│   ├── group_6182d8d6c4937.json
+│   ├── group_621d118e29071.json
+│   ├── group_621d5a3d2d90a.json
+│   ├── group_63443a7ddee96.json
+│   ├── group_63444acc931a6.json
+│   ├── group_634ec84d8d411.json
+│   └── group_63729333c89ff.json
+├── archive-fact-checking.php
+├── archive-podcast.php
+├── archive.php
+├── category-fact-checking.php
+├── category.php
+├── class-wp-bootstrap-navwalker.php
+├── comments.php
+├── composer.json
+├── composer.lock
+├── css
+│   ├── BeerSlider.css
+│   ├── BeerSlider2.css
+│   ├── animate.min.css
+│   ├── archivo
+│   │   ├── ArchivoExpanded-Bold.svg
+│   │   ├── ArchivoExpanded-Bold.woff
+│   │   ├── ArchivoExpanded-Bold.woff2
+│   │   ├── ArchivoExpanded-Italic.svg
+│   │   ├── ArchivoExpanded-Italic.woff
+│   │   ├── ArchivoExpanded-Italic.woff2
+│   │   ├── ArchivoExpanded-Light.svg
+│   │   ├── ArchivoExpanded-Light.woff
+│   │   ├── ArchivoExpanded-Light.woff2
+│   │   ├── ArchivoExpanded-Medium.svg
+│   │   ├── ArchivoExpanded-Medium.woff
+│   │   ├── ArchivoExpanded-Medium.woff2
+│   │   ├── ArchivoExpanded-Regular.svg
+│   │   ├── ArchivoExpanded-Regular.woff
+│   │   └── ArchivoExpanded-Regular.woff2
+│   ├── bootstrap-grid.css
+│   ├── bootstrap-grid.css.map
+│   ├── bootstrap-grid.min.css
+│   ├── bootstrap-grid.min.css.map
+│   ├── bootstrap-reboot.css
+│   ├── bootstrap-reboot.css.map
+│   ├── bootstrap-reboot.min.css
+│   ├── bootstrap-reboot.min.css.map
+│   ├── bootstrap.css
+│   ├── bootstrap.css.map
+│   ├── bootstrap.min.css
+│   ├── bootstrap.min.css.map
+│   ├── divergentes.css
+│   ├── divergentesv2.css
+│   ├── fonts
+│   │   ├── GothaProBla.woff
+│   │   ├── GothaProBol.woff
+│   │   ├── GothaProLig.woff
+│   │   ├── GothaProLigIta.woff
+│   │   ├── GothaProMed.woff
+│   │   ├── GothaProReg.woff
+│   │   ├── GothamPro-Black.woff
+│   │   ├── GothamPro-Black.woff2
+│   │   ├── GothamPro-Bold.woff
+│   │   ├── GothamPro-Bold.woff2
+│   │   ├── GothamPro-Light.woff
+│   │   ├── GothamPro-Light.woff2
+│   │   ├── GothamPro-LightItalic.woff
+│   │   ├── GothamPro-LightItalic.woff2
+│   │   ├── GothamPro-Medium.woff
+│   │   ├── GothamPro-Medium.woff2
+│   │   ├── GothamPro-MediumItalic.woff
+│   │   ├── GothamPro-MediumItalic.woff2
+│   │   ├── GothamPro.woff
+│   │   ├── GothamPro.woff2
+│   │   ├── GothamProMediumItalic.woff
+│   │   ├── Memphis-ExtraBold.eot
+│   │   ├── Memphis-ExtraBold.svg
+│   │   ├── Memphis-ExtraBold.ttf
+│   │   ├── Memphis-ExtraBold.woff
+│   │   ├── Memphis-ExtraBold.woff2
+│   │   ├── example.html
+│   │   ├── gotham-book-webfont.eot
+│   │   ├── gotham-book-webfont.ttf
+│   │   ├── gotham-book-webfont.woff
+│   │   ├── gotham-book-webfont.woff2
+│   │   ├── gothamp.css
+│   │   ├── memphi31.ttf
+│   │   ├── memphis.css
+│   │   ├── playfairdisplay-bolditalic-webfont.woff
+│   │   ├── playfairdisplay-bolditalic-webfont.woff2
+│   │   ├── playfairdisplay-italic-webfont.woff
+│   │   ├── playfairdisplay-italic-webfont.woff2
+│   │   ├── stylesheet.css
+│   │   ├── transfonter.org-20200519-043733.zip
+│   │   ├── webfontkit-20200519-011040.zip
+│   │   └── webfontkit-20200519-011425.zip
+│   ├── jquery.slotmachine.css
+│   ├── jubilat
+│   │   ├── a
+│   │   ├── a-200
+│   │   ├── a-200italic
+│   │   ├── a-600
+│   │   ├── a-700
+│   │   ├── a-700italic
+│   │   ├── a-italic
+│   │   ├── d-200.woff
+│   │   ├── d-200italic.woff
+│   │   ├── d-600.woff
+│   │   ├── d-700.woff
+│   │   ├── d-700italic.woff
+│   │   ├── d-italic.woff
+│   │   ├── d.woff
+│   │   ├── jubilat-400
+│   │   ├── l-200
+│   │   ├── l-200italic
+│   │   ├── l-600
+│   │   ├── l-700
+│   │   ├── l-700italic
+│   │   └── l-italic
+│   ├── landing2.css
+│   ├── nosotros.css
+│   ├── panama.css
+│   ├── reto-masacre.css
+│   ├── swiper.min.css
+│   ├── tokens-bridge.css
+│   ├── vidbg.css
+│   └── vientos-eta.css
+├── design-system
+│   └── tokens
+│       ├── build
+│       │   ├── tokens.css
+│       │   └── tokens.js
+│       ├── figma-to-sd.py
+│       ├── package-lock.json
+│       ├── package.json
+│       ├── source
+│       │   ├── componentes.json
+│       │   ├── numbers.json
+│       │   ├── primitivos.json
+│       │   ├── raw
+│       │   │   ├── componentes.json
+│       │   │   ├── numbers.json
+│       │   │   ├── primitivos.json
+│       │   │   └── semanticos.json
+│       │   └── semanticos.json
+│       └── style-dictionary.config.js
+├── footer-8m.php
+├── footer-aabril.php
+├── footer-absurdosortega.php
+├── footer-alba.php
+├── footer-bajoacoso.php
+├── footer-bukele.php
+├── footer-covid.php
+├── footer-covid2.php
+├── footer-covid2020.php
+├── footer-crisiscr.php
+├── footer-ejercitos.php
+├── footer-ejercitosinterna.php
+├── footer-escombros-iota.php
+├── footer-estudiantes.php
+├── footer-geografiamasacres.php
+├── footer-home.php
+├── footer-independencia.php
+├── footer-indigenas.php
+├── footer-indigenasmayagnas.php
+├── footer-justiciaimpunidad.php
+├── footer-justiciatransicion.php
+├── footer-justiciatransicional.php
+├── footer-lgtb-2.php
+├── footer-lgtb.php
+├── footer-licitaciones-dt.php
+├── footer-licitaciones.php
+├── footer-manualrepresion.php
+├── footer-memjust.php
+├── footer-mercenariosarmardos.php
+├── footer-mhonduras.php
+├── footer-mistica.php
+├── footer-nayibasalta.php
+├── footer-ninasforzadas.php
+├── footer-ninasforzadashome.php
+├── footer-ormu.php
+├── footer-panama.php
+├── footer-presidenciables.php
+├── footer-retomasacre.php
+├── footer-ser.php
+├── footer-suscripcion.php
+├── footer-tdomesticas.php
+├── footer-vaciosabril.php
+├── footer-vientoseta.php
+├── footer-vm.php
+├── footer-vocesvictimas.php
+├── footer-vocesvictimashome.php
+├── footer.php
+├── functions-page-nosotros.php
+├── functions.php
+├── header-404.php
+├── header-8m.php
+├── header-aabril.php
+├── header-absurdosortega.php
+├── header-actoresclave.php
+├── header-alba.php
+├── header-bajoacoso.php
+├── header-bukele.php
+├── header-cancun.php
+├── header-covid.php
+├── header-covid2.php
+├── header-covid2020.php
+├── header-ejercitos.php
+├── header-ejercitos2.php
+├── header-escombros-iota.php
+├── header-estudiantes.php
+├── header-exilio.php
+├── header-independencia.php
+├── header-indigenasd.php
+├── header-indigenasmayagnas.php
+├── header-justiciatransicion copy.php
+├── header-justiciatransicion.php
+├── header-justiiaimpunidad.php
+├── header-lgtb.php
+├── header-manualrepresion.php
+├── header-memjust.php
+├── header-mercenariosarmados.php
+├── header-mhonduras.php
+├── header-mistica.php
+├── header-ninasforzadas.php
+├── header-panama.php
+├── header-presidenciables.php
+├── header-retomasacre.php
+├── header-ser.php
+├── header-tdomesticas.php
+├── header-vaciosabril.php
+├── header-vientoseta.php
+├── header-vm.php
+├── header-vocesnicaragua.php
+├── header-vocesvictimas.php
+├── header.php
+├── html
+│   ├── covid.html
+│   ├── index.html
+│   ├── index_landing2.html
+│   └── landing.html
+├── html2
+│   ├── categorias.html
+│   ├── css
+│   │   ├── fonts
+│   │   │   ├── Jubilat-Bold.svg
+│   │   │   ├── Jubilat-Bold.woff
+│   │   │   ├── Jubilat-Bold.woff2
+│   │   │   ├── Jubilat-Light.svg
+│   │   │   ├── Jubilat-Light.woff
+│   │   │   ├── Jubilat-Light.woff2
+│   │   │   ├── Jubilat.svg
+│   │   │   ├── Jubilat.woff
+│   │   │   ├── Jubilat.woff2
+│   │   │   ├── demo.html
+│   │   │   ├── fonts
+│   │   │   │   ├── jubilat-bold-webfont.eot
+│   │   │   │   ├── jubilat-bold-webfont.svg
+│   │   │   │   ├── jubilat-bold-webfont.ttf
+│   │   │   │   ├── jubilat-bold-webfont.woff
+│   │   │   │   ├── jubilat-light-demo.html
+│   │   │   │   ├── jubilat-light-webfont.eot
+│   │   │   │   ├── jubilat-light-webfont.svg
+│   │   │   │   ├── jubilat-light-webfont.ttf
+│   │   │   │   ├── jubilat-light-webfont.woff
+│   │   │   │   ├── jubilat-regular-demo.html
+│   │   │   │   ├── jubilat-regular-webfont.eot
+│   │   │   │   ├── jubilat-regular-webfont.svg
+│   │   │   │   ├── jubilat-regular-webfont.ttf
+│   │   │   │   └── jubilat-regular-webfont.woff
+│   │   │   └── jubilat.css
+│   │   └── style.css
+│   ├── image
+│   │   ├── Recurso-1.png
+│   │   ├── Recurso-3.png
+│   │   ├── Recurso-4.png
+│   │   ├── Recurso-5.png
+│   │   ├── Recurso-6.png
+│   │   ├── Recurso-7.png
+│   │   └── Recurso-8.png
+│   └── index.html
+├── img
+│   ├── 1x
+│   │   └── covid_top-80.jpg
+│   ├── 2-marcha-politica-80.jpg
+│   ├── FotoPerfilAvelar.jpg
+│   ├── ISNUMOS.png
+│   ├── PORTADA-EDITORIAL.jpeg
+│   ├── actoresclave.svg
+│   ├── amores_thumb.jpg
+│   ├── avalaible-06-02.jpg
+│   ├── avalaible-06-03-1.jpg
+│   ├── avalaible-06-04.jpg
+│   ├── avalaible-06-05.jpg
+│   ├── bg-homecovid.png
+│   ├── bg-landing-80.jpg
+│   ├── bg_beneficios-last.svg
+│   ├── bg_beneficios.svg
+│   ├── bg_hero.jpg
+│   ├── bukele
+│   │   ├── BG_PORTADA.jpg
+│   │   ├── PORTADA.png
+│   │   ├── PORTADA_BUK-8.png
+│   │   ├── PORTADA_Nayib.png
+│   │   ├── nayib1-70.jpg
+│   │   ├── nayib2-70.jpg
+│   │   ├── nayib3-70.jpg
+│   │   ├── nayib4-70.jpg
+│   │   ├── nayib5.jpg
+│   │   └── nayib7.jpg
+│   ├── cajaseguropanama_thumb.jpg
+│   ├── carlos.jpg
+│   ├── contratista_thumb.jpg
+│   ├── corte-caos_thumb.jpg
+│   ├── covid-1.jpg
+│   ├── covid-10-80.jpg
+│   ├── covid-11-80.jpg
+│   ├── covid-12.jpg
+│   ├── covid-13.jpg
+│   ├── covid-14.jpg
+│   ├── covid-2
+│   │   ├── 1.jpg
+│   │   ├── 1.png
+│   │   ├── Logo-Connectas-01.png
+│   │   ├── MAPA-4.svg
+│   │   ├── MAPA_DESKTOP.svg
+│   │   ├── NI6005.jpg
+│   │   ├── Nicaragua-logo.png
+│   │   ├── connectas.svg
+│   │   ├── covid-2.zip
+│   │   ├── foto-covid2.jpg
+│   │   ├── foto_hija.jpg
+│   │   ├── funcionarios-covid.jpg
+│   │   ├── horizontal_4color_Name_on white.png
+│   │   ├── personal_medico.svg
+│   │   ├── radiografia--6.JPG
+│   │   ├── radiografia-1.jpg
+│   │   ├── radiografia-2.jpg
+│   │   ├── radiografia-3.jpg
+│   │   ├── radiografia-4.JPG
+│   │   ├── radiografia-5.jpg
+│   │   └── wilfredo-maynor.png
+│   ├── covid-2.jpg
+│   ├── covid-2.zip
+│   ├── covid-2020
+│   │   ├── BANNER_COVID_new.jpg
+│   │   ├── BANNER_HOME_2.mp4
+│   │   ├── BANNER_VIDD.mp4
+│   │   ├── EN_DIRECTO.gif
+│   │   ├── ULTIMOS_DATOS.svg
+│   │   ├── covid-directo_bars.png
+│   │   ├── covid-directo_icon.svg
+│   │   ├── home-covid2020.svg
+│   │   └── ultimosdatos.png
+│   ├── covid-4-80.jpg
+│   ├── covid-5-80.jpg
+│   ├── covid-6-80.jpg
+│   ├── covid-7-80.jpg
+│   ├── covid-8-80.jpg
+│   ├── covid-9-80.jpg
+│   ├── covid_1-80.jpg
+│   ├── covid_2-80.jpg
+│   ├── covid_2-81.jpg
+│   ├── covid_2_1-80.jpg
+│   ├── covid_3-80.jpg
+│   ├── covid_thumb.jpg
+│   ├── covid_thumb.psd
+│   ├── crisis-cr
+│   │   ├── FOTO-02-CR.jpg
+│   │   ├── FOTO-03-CR.jpg
+│   │   ├── FOTO-PRESIDENTE.jpg
+│   │   ├── ICON_BANDERA.svg
+│   │   ├── cr-1995-2.svg
+│   │   ├── cr-1995.svg
+│   │   ├── cr-2000.svg
+│   │   ├── cr-2004.svg
+│   │   ├── cr-2007.svg
+│   │   ├── cr-2012.svg
+│   │   ├── cr-2014.svg
+│   │   ├── cr-2018.svg
+│   │   ├── cr-2020.svg
+│   │   ├── icontimeline.svg
+│   │   ├── portada.jpg
+│   │   └── titulo-crtimeline.svg
+│   ├── democracia-papel
+│   │   ├── click-democraciapapel.svg
+│   │   ├── cliquea-democraciadepapel.svg
+│   │   ├── logo-democraciaspapel.svg
+│   │   └── logo_democraciapapel2.svg
+│   ├── editorial-thumb.jpg
+│   ├── ejercitos
+│   │   ├── ANALISIS-1.jpg
+│   │   ├── ANALISIS-2.jpg
+│   │   ├── ANALISIS-3.jpg
+│   │   ├── AlvaroMurillo.jpeg
+│   │   ├── COSTA-RICA-1.jpg
+│   │   ├── COSTA-RICA-2.jpg
+│   │   ├── CarmenValeria.jpeg
+│   │   ├── EL-SALVADOR-1.jpg
+│   │   ├── EL-SALVADOR-2.jpg
+│   │   ├── ElviraCuadra.jpeg
+│   │   ├── ErrolCaballero.jpeg
+│   │   ├── FONDO.mp4
+│   │   ├── GUATEMALA-1.jpg
+│   │   ├── GUATEMALA-2.jpg
+│   │   ├── HONDURAS-1.jpg
+│   │   ├── HONDURAS-2.jpg
+│   │   ├── LuisSas.jpeg
+│   │   ├── NICARAGUA-1.jpg
+│   │   ├── NICARAGUA-2.jpg
+│   │   ├── PANAMA-1.jpg
+│   │   ├── PANAMA-2.jpg
+│   │   ├── ThelmaMejia.jpg
+│   │   ├── WilfredoMiranda.jpg
+│   │   ├── home_bgvid2.mp4
+│   │   ├── map_homefull.svg
+│   │   ├── map_mobilefull.svg
+│   │   └── wilfredo.png
+│   ├── escombros-iota
+│   │   ├── portada_bg.jpg
+│   │   └── portada_text.svg
+│   ├── eta
+│   │   ├── BebasKai.woff
+│   │   ├── BebasKai.woff2
+│   │   ├── BritishInseratMN.woff
+│   │   ├── BritishInseratMN.woff2
+│   │   ├── hand_down2.svg
+│   │   ├── stylesheet.css
+│   │   ├── text_1.svg
+│   │   ├── titulo.svg
+│   │   ├── titulo_desktop.svg
+│   │   ├── titulo_final.svg
+│   │   ├── titulo_final_mov.svg
+│   │   ├── titulo_mob.svg
+│   │   ├── titulo_mov.svg
+│   │   ├── titulo_mov2.svg
+│   │   └── titulo_pc.svg
+│   ├── etnocidio_thumb.jpg
+│   ├── etnocidio_thumb.psd
+│   ├── falso-profeta-80.jpg
+│   ├── fondo-menu.jpg
+│   ├── footer_logosvg.svg
+│   ├── gran-contratista
+│   │   ├── PORTADA-CONTRATISTA-DESTACADA.jpg
+│   │   ├── SANTIAGO-CHAVEZ.jpeg
+│   │   ├── SANTIAGO-CHAVEZ.jpg
+│   │   ├── cereza-pastel-ft.jpg
+│   │   ├── cereza-pastel.jpg
+│   │   ├── concretos-sa-ft.jpg
+│   │   ├── concretos-sa-pic.jpg
+│   │   ├── concretos-sa.jpg
+│   │   ├── estacion-tren.jpg
+│   │   ├── estadio-independencia-ft.jpg
+│   │   ├── estadio-independencia-pan.jpg
+│   │   ├── estadio-independencia.jpg
+│   │   ├── fidel-moreno.jpg
+│   │   ├── grancontratista1.jpg
+│   │   ├── humilde-festin-ft.jpg
+│   │   ├── humilde-festin.jpg
+│   │   ├── lago.jpeg
+│   │   ├── maynor.jpg
+│   │   ├── museo-juanpii.jpg
+│   │   ├── parque-tiscapa.jpg
+│   │   ├── portada-inicio.jpg
+│   │   ├── vacio-legal-ft.jpg
+│   │   └── vacio-legal.jpg
+│   ├── h_bg-boletin.jpg
+│   ├── h_contenido.jpg
+│   ├── h_contenido_box.svg
+│   ├── h_contenido_right1.svg
+│   ├── h_contenido_right2.svg
+│   ├── h_contenido_right3.svg
+│   ├── home_news
+│   │   ├── hoem2.jpg
+│   │   ├── home1.jpg
+│   │   ├── home3.jpg
+│   │   └── top1.jpg
+│   ├── image-default.png
+│   ├── img_nota.png
+│   ├── indigenas-desplazados
+│   │   ├── bhistorico.jpg
+│   │   ├── bhistorico2.jpg
+│   │   ├── bhistorico3.jpg
+│   │   ├── bhistorico4.jpg
+│   │   ├── comp_0-bk.mp4
+│   │   ├── comp_0.jpeg
+│   │   ├── comp_0.mp4
+│   │   ├── comp_a2_1-bk.mp4
+│   │   ├── comp_a2_1.jpeg
+│   │   ├── comp_a2_1.mp4
+│   │   ├── comp_a3_1-bk.mp4
+│   │   ├── comp_a3_1.jpeg
+│   │   ├── comp_a3_1.mp4
+│   │   ├── comp_a4_1-bk.mp4
+│   │   ├── comp_a4_1.jpeg
+│   │   ├── comp_a4_1.mp4
+│   │   ├── de-klisnak-.jpg
+│   │   ├── klisnak1.jpg
+│   │   ├── klisnak2.jpg
+│   │   ├── klisnak3.jpg
+│   │   ├── klisnak4.jpg
+│   │   ├── saneamiento-trafico.jpg
+│   │   ├── saneamiento-trafico2.jpg
+│   │   ├── saneamiento-trafico3.jpg
+│   │   ├── saneamiento-trafico4.jpg
+│   │   └── thuml_comp_1.jpg
+│   ├── jennifer.jpg
+│   ├── justiciatransicion
+│   │   ├── BARRICADAS.jpg
+│   │   ├── COVID.jpg
+│   │   ├── IMGS-MOBILE-2.jpg
+│   │   ├── IMGS-MOBILE-3.jpg
+│   │   ├── IMGS-MOBILE-4.jpg
+│   │   ├── IMGS-MOBILE-5.jpg
+│   │   ├── IMGS-MOBILE-6.jpg
+│   │   ├── IMGS-MOBILE-7.jpg
+│   │   ├── IMGS-MOBILE-8.jpg
+│   │   ├── IMGS-MOBILE.jpg
+│   │   ├── POLICE.jpg
+│   │   ├── PRESOS.jpg
+│   │   ├── Paramilitares.jpg
+│   │   ├── SANSIONES_1.png
+│   │   ├── SANSIONES_2.jpg
+│   │   ├── SVG copy 2.svg
+│   │   ├── SVG copy 3.svg
+│   │   ├── SVG copy 6.svg
+│   │   ├── Sanciones.jpg
+│   │   ├── estudiantes.svg
+│   │   ├── estudiantes1.png
+│   │   ├── logo-justiciatransicion.png
+│   │   └── presos2.jpg
+│   ├── landing-bg.jpg
+│   ├── landing.jpg
+│   ├── lgtb
+│   │   ├── FONDO.jpg
+│   │   ├── F_1.jpg
+│   │   ├── F_2.jpg
+│   │   ├── Foto-1-Nica.jpg
+│   │   ├── Foto-1.jpg
+│   │   ├── Foto-2-Nica.jpg
+│   │   ├── Foto-2.jpg
+│   │   ├── Foto-3-Nica.jpg
+│   │   ├── Foto-3.jpg
+│   │   ├── Foto-4-Nica.jpg
+│   │   ├── Foto-4.jpg
+│   │   ├── costa_rica.png
+│   │   ├── genesis.jpeg
+│   │   ├── karla.jpeg
+│   │   ├── mapasvg.svg
+│   │   ├── nicaragua.png
+│   │   ├── t_1.svg
+│   │   └── t_2.svg
+│   ├── lgtb-home.jpg
+│   ├── licitaciones
+│   │   ├── FICHA-1.png
+│   │   ├── FICHA-2.png
+│   │   ├── FICHA-3.png
+│   │   ├── FICHA-4.png
+│   │   ├── FICHA-5.png
+│   │   ├── F_1.jpg
+│   │   ├── F_2.jpg
+│   │   ├── F_3.jpg
+│   │   ├── F_4.jpg
+│   │   ├── F_5.jpg
+│   │   ├── GANATE_UNA_3.svg
+│   │   ├── GANATE_UNAanim2.svg
+│   │   ├── GANATE_UNAanim3.svg
+│   │   ├── MAQUINA.png
+│   │   ├── MAQUINA2.png
+│   │   ├── MAQUINA3.png
+│   │   ├── MAQUINA4.png
+│   │   ├── PASO.svg
+│   │   ├── POOL.svg
+│   │   ├── ROAD.svg
+│   │   ├── STADIUM.svg
+│   │   ├── URBANIZACION.svg
+│   │   ├── analisis.jpg
+│   │   ├── favoritos2.jpg
+│   │   ├── fondo-tragamonedas.jpg
+│   │   ├── ganate_licitacion2.png
+│   │   ├── maquina.svg
+│   │   ├── maquina2 copia copia.svg
+│   │   ├── maquina2 copia.svg
+│   │   ├── maquina2.svg
+│   │   └── slot_audio.mp3
+│   ├── logo.svg
+│   ├── logo_footer.png
+│   ├── logo_white.svg
+│   ├── maynor.jpg
+│   ├── memoria-justicia
+│   │   ├── 1-icon.svg
+│   │   ├── 2-icon.svg
+│   │   ├── 3d
+│   │   │   ├── 0.png
+│   │   │   ├── 1.png
+│   │   │   ├── 10.png
+│   │   │   ├── 11.png
+│   │   │   ├── 12.png
+│   │   │   ├── 13.png
+│   │   │   ├── 14.png
+│   │   │   ├── 15.png
+│   │   │   ├── 16.png
+│   │   │   ├── 17.png
+│   │   │   ├── 18.png
+│   │   │   ├── 19.png
+│   │   │   ├── 2.png
+│   │   │   ├── 3.png
+│   │   │   ├── 4.png
+│   │   │   ├── 5.png
+│   │   │   ├── 6.png
+│   │   │   ├── 7.png
+│   │   │   ├── 8.png
+│   │   │   └── 9.png
+│   │   ├── FONDO2.jpg
+│   │   ├── icon-1.png
+│   │   ├── icon-21.png
+│   │   ├── icon-21.svg
+│   │   ├── icon-3.svg
+│   │   ├── icon-31.png
+│   │   ├── icon-justiciatransicion.png
+│   │   ├── icon-video.png
+│   │   ├── icon-video3.png
+│   │   ├── icon1-text.png
+│   │   ├── icon3-text.png
+│   │   └── video-text.png
+│   ├── mercenarios-armados
+│   │   ├── label-360.png
+│   │   ├── mercenarios-armados-0.jpg
+│   │   ├── mercenarios-armados-1.jpg
+│   │   ├── mercenarios-armados-2.jpg
+│   │   └── mercenarios-armados-3.jpg
+│   ├── mhonduras
+│   │   ├── mhonduras-h_featured.jpg
+│   │   ├── mhonduras_2.jpg
+│   │   ├── mhonduras_3.jpg
+│   │   └── mhonduras_4.jpg
+│   ├── militarismo_thumb.jpg
+│   ├── mundo_rosario-80.jpg
+│   ├── n_arce.png
+│   ├── nayib_thumb.jpg
+│   ├── ninasforzadas
+│   │   ├── 7C613058.png
+│   │   ├── click-pais.svg
+│   │   ├── click-pais2.svg
+│   │   ├── costa rica.svg
+│   │   ├── elsalvador.svg
+│   │   ├── footer-bg.png
+│   │   ├── gladys.png
+│   │   ├── guatemala.svg
+│   │   ├── honduras.svg
+│   │   ├── icon-nfnuevo.svg
+│   │   ├── icon-nfnuevo2.svg
+│   │   ├── icon-nfnuevo3.svg
+│   │   ├── ie-text.svg
+│   │   ├── ie-text2.svg
+│   │   ├── ie-text3.svg
+│   │   ├── logo.svg
+│   │   ├── nf-cr.svg
+│   │   ├── nf-elsal.svg
+│   │   ├── nf-gua.svg
+│   │   ├── nf-icon11.svg
+│   │   ├── nf-iconcalendar.svg
+│   │   ├── nf-pan.svg
+│   │   ├── nf-tumb.svg
+│   │   ├── nicaragua
+│   │   │   ├── timeline_1.svg
+│   │   │   ├── timeline_2.svg
+│   │   │   ├── timeline_3.svg
+│   │   │   ├── timeline_4.svg
+│   │   │   └── timeline_5.svg
+│   │   ├── nicaragua.svg
+│   │   ├── nn-hn.svg
+│   │   ├── nn-ley.svg
+│   │   └── panama.svg
+│   ├── nosotros
+│   │   ├── alicia-henriquez.webp
+│   │   ├── aurora-martinez.webp
+│   │   ├── carlos-herrera.webp
+│   │   ├── claudia-tijerino.webp
+│   │   ├── doreen-fwambo.webp
+│   │   ├── indira-gomez.webp
+│   │   ├── jareth-gutierrez.webp
+│   │   ├── johanna-baca.webp
+│   │   ├── jose-denis-cruz.webp
+│   │   ├── massiell-largaespada.webp
+│   │   ├── miguel-gutierrez.webp
+│   │   ├── moises-martinez.webp
+│   │   ├── nestor-arce.webp
+│   │   ├── paula-carrion.webp
+│   │   ├── ricardo-arce.webp
+│   │   ├── tatyana-luna.webp
+│   │   └── wilfredo-miranda.webp
+│   ├── ortega-aparecio-80.jpg
+│   ├── ortega_elausente-80.jpg
+│   ├── panama
+│   │   ├── BILL_4.png
+│   │   ├── BILL_GENERAL.png
+│   │   ├── EDIFICION-FULL.png
+│   │   ├── EDIFICION-FULL.svg
+│   │   ├── EDIFICION-QUIEBRA.png
+│   │   ├── EDIFICION-QUIEBRA.svg
+│   │   ├── EDIFICIO_1.png
+│   │   ├── EDIFICIO_2.png
+│   │   ├── EDIFICIO_3.png
+│   │   ├── EDIFICIO_CSS.png
+│   │   ├── EMBUDO_1.png
+│   │   ├── EMBUDO_2.png
+│   │   ├── FONDO.jpg
+│   │   ├── Ilustración_1.svg
+│   │   ├── Ilustración_11.png
+│   │   ├── Ilustración_12.png
+│   │   ├── Ilustración_13.png
+│   │   ├── Ilustración_14.png
+│   │   ├── Ilustración_15.png
+│   │   ├── Ilustración_16.png
+│   │   ├── Ilustración_2 copia.svg
+│   │   ├── Ilustración_2 copia1.png
+│   │   ├── Ilustración_2 copia2.png
+│   │   ├── Ilustración_2 copia3.png
+│   │   ├── Ilustración_2 copia4.png
+│   │   ├── Ilustración_2 copia5.png
+│   │   ├── Ilustración_2 copia6.png
+│   │   ├── Ilustración_2.svg
+│   │   ├── Ilustración_21.png
+│   │   ├── Ilustración_22.png
+│   │   ├── Ilustración_23.png
+│   │   ├── Ilustración_24.png
+│   │   ├── Ilustración_25.png
+│   │   ├── Ilustración_26.png
+│   │   ├── LA_BANCA_DEL_SEGURO.svg
+│   │   ├── LA_BANCA_DEL_SEGURO2.svg
+│   │   ├── MONEDA1.png
+│   │   ├── MONEDA_2.png
+│   │   ├── NUBE_1.png
+│   │   ├── NUBE_2 (1).png
+│   │   ├── NUBE_3 (1).png
+│   │   ├── conta.jpeg
+│   │   ├── edificio-final.svg
+│   │   ├── edificio-final2.SVG
+│   │   ├── edificio-final3.svg
+│   │   ├── logo_css.png
+│   │   ├── logo_salud.png
+│   │   ├── pinata-quebrada2.svg
+│   │   └── pinata.svg
+│   ├── portada_tragedia.jpg
+│   ├── portada_vaciosabril.jpg
+│   ├── presidenciables
+│   │   └── logo_presidenciables.svg
+│   ├── puerto_corinto-80.jpg
+│   ├── rebelion-medica-80.jpg
+│   ├── rx
+│   │   ├── Px07.jpg
+│   │   ├── Rx01.jpg
+│   │   ├── Rx02.jpg
+│   │   ├── Rx03.jpg
+│   │   ├── Rx04.jpg
+│   │   ├── Rx05.jpg
+│   │   ├── Rx06.jpg
+│   │   └── Rx08.jpg
+│   ├── tdomesticas
+│   │   ├── bg-tdomesticas.jpg
+│   │   ├── bg-tdomesticas_mobile.jpg
+│   │   ├── espana.png
+│   │   ├── honduras.png
+│   │   ├── logo_tdomesticas.svg
+│   │   ├── logos_footer.png
+│   │   └── nicaragua.png
+│   ├── thumb-violeta.jpg
+│   ├── thumb.png
+│   ├── tomografias-80.jpg
+│   ├── tragedia-4actos
+│   │   ├── CHG_1031.jpg
+│   │   ├── CHG_2280.jpg
+│   │   ├── Misa289.jpg
+│   │   ├── Zoila_ON9.jpg
+│   │   ├── arboles_vida.jpg
+│   │   ├── daniel_rosario.png
+│   │   ├── divergentes_murillo.jpg
+│   │   ├── divergentes_murillo_mob.jpg
+│   │   ├── plaza_dr.jpg
+│   │   ├── plaza_dr_mob.jpg
+│   │   ├── principal.png
+│   │   ├── rosario_1.png
+│   │   ├── rosario_2.png
+│   │   ├── rosario_3.png
+│   │   ├── rosario_4.png
+│   │   └── rosario_4_mob.jpg
+│   ├── v2
+│   │   ├── bg-suscribir2.png
+│   │   ├── bg-suscribir3.jpg
+│   │   ├── logoMenuSticky.svg
+│   │   └── logo_diver.svg
+│   ├── vacios-abril
+│   │   ├── Bambi-Hijo.mp3
+│   │   ├── Carlos-Manuel.mp3
+│   │   ├── Gerald-Susana.mp3
+│   │   ├── PORTADA.jpg
+│   │   ├── PORTADA_VACIO_2.2.jpg
+│   │   ├── PORTADA_VACIO_2.23.jpg
+│   │   ├── PORTADA_VACIO_2.jpg
+│   │   ├── PORTADA_VACIO_3.jpg
+│   │   ├── PORTADA_VACIO_4.jpg
+│   │   ├── PORTADA_VACIO_5.1.jpg
+│   │   ├── PORTADA_VACIO_5.jpg
+│   │   ├── RELATO-2.jpg
+│   │   ├── RELATO-3.jpg
+│   │   ├── TERCER_PORTADA.jpg
+│   │   ├── TERCER_PORTADA_1.jpg
+│   │   ├── TERCER_PORTADA_2.jpg
+│   │   ├── TERCER_PORTADA_3.jpg
+│   │   ├── TERCER_PORTADA_4.jpg
+│   │   ├── VACIO_1.1.jpg
+│   │   ├── VACIO_1.jpg
+│   │   ├── VACIO_2.1.jpg
+│   │   ├── VACIO_2.jpg
+│   │   ├── VACIO_3.jpg
+│   │   ├── VACIO_4.jpg
+│   │   ├── VACIO_DPORTADA.jpg
+│   │   ├── VACIO_DPORTADA_color.jpg
+│   │   ├── color_bg.png
+│   │   ├── color_bg3.png
+│   │   ├── cuarto_gerald.png
+│   │   ├── foto_gerald.jpg
+│   │   ├── logo_modal.svg
+│   │   ├── silueta_sofa.png
+│   │   ├── sofa_gerald.svg
+│   │   ├── sofa_gerald2.svg
+│   │   └── wilfredo_carlos.png
+│   ├── vaciosabril_thumb.jpg
+│   ├── video
+│   │   └── PORTADA.mp4
+│   ├── violencia-estado-nicaragua
+│   │   ├── Ana-M.-Vijil.png
+│   │   ├── Cristiana-Chamorro.png
+│   │   ├── Dora-Maria-Tellez.png
+│   │   ├── Julia-Hernandez.png
+│   │   ├── Karla-Escobar.png
+│   │   ├── Maria-F.-Flores.png
+│   │   ├── Maria-Oviedo.png
+│   │   ├── Maria-Sanchez.png
+│   │   ├── Nidia-Barbosa.png
+│   │   ├── Recurso-1.png
+│   │   ├── Samantha-Jiron.png
+│   │   ├── Suyen-Barahona.png
+│   │   ├── Tamara-Davila.png
+│   │   ├── Violeta-Granera.png
+│   │   └── Wall.jpg
+│   ├── voces-victimas
+│   │   ├── back-victimas.png
+│   │   ├── next-victimas.png
+│   │   └── voces-victimas-logo.svg
+│   └── wilfredo.jpg
+├── inc
+│   ├── Mobile_Detect.php
+│   ├── acf-admin-menu.php
+│   ├── curstom-post-types-functions
+│   ├── curstom-post-types-functions.php
+│   ├── custom-header.php
+│   ├── custom-post-types-functions.php
+│   ├── customizer.php
+│   ├── jetpack.php
+│   ├── template-functions.php
+│   └── template-tags.php
+├── index.php
+├── infierno-en-la-estancia-migratoria-de-cancun
+│   ├── css
+│   │   ├── bootstrap-theme.css
+│   │   ├── bootstrap-theme.css.map
+│   │   ├── bootstrap-theme.min.css
+│   │   ├── bootstrap-theme.min.css.map
+│   │   ├── bootstrap.css
+│   │   ├── bootstrap.css.map
+│   │   ├── bootstrap.min.css
+│   │   ├── bootstrap.min.css.map
+│   │   └── style.css
+│   ├── fonts
+│   │   ├── JMHTypewritermono-Regular.woff
+│   │   ├── JMHTypewritermono-Regular.woff2
+│   │   ├── glyphicons-halflings-regular.eot
+│   │   ├── glyphicons-halflings-regular.svg
+│   │   ├── glyphicons-halflings-regular.ttf
+│   │   ├── glyphicons-halflings-regular.woff
+│   │   └── glyphicons-halflings-regular.woff2
+│   ├── index.html
+│   ├── js
+│   │   ├── bootstrap.js
+│   │   ├── bootstrap.min.js
+│   │   ├── npm.js
+│   │   ├── script.js
+│   │   ├── scrollmagic
+│   │   │   ├── ScrollMagic.min.js
+│   │   │   └── plugins
+│   │   │       ├── animation.gsap.min.js
+│   │   │       ├── animation.velocity.min.js
+│   │   │       ├── debug.addIndicators.min.js
+│   │   │       └── jquery.ScrollMagic.min.js
+│   │   └── wavesurfer
+│   │       ├── plugin
+│   │       │   ├── wavesurfer.cursor.min.js
+│   │       │   ├── wavesurfer.elan.min.js
+│   │       │   ├── wavesurfer.mediasession.min.js
+│   │       │   ├── wavesurfer.microphone.min.js
+│   │       │   ├── wavesurfer.minimap.min.js
+│   │       │   ├── wavesurfer.regions.min.js
+│   │       │   ├── wavesurfer.spectrogram.min.js
+│   │       │   └── wavesurfer.timeline.min.js
+│   │       └── wavesurfer.min.js
+│   └── media
+│       ├── animaciones
+│       │   ├── 1.mp4
+│       │   ├── 10.mp4
+│       │   ├── 11.mp4
+│       │   ├── 2.mp4
+│       │   ├── 3.mp4
+│       │   ├── 4.mp4
+│       │   ├── 5.mp4
+│       │   ├── 6.mp4
+│       │   ├── 7.mp4
+│       │   ├── 8.mp4
+│       │   ├── 9.jpg
+│       │   ├── portada-m.mp4
+│       │   └── portada.mp4
+│       ├── audios
+│       │   ├── audio_lua.mp4
+│       │   ├── audio_maikel.mp4
+│       │   └── audio_sabrina.mp4
+│       └── images
+│           ├── a.svg
+│           ├── aristegui.svg
+│           ├── canal44.png
+│           ├── connectas.svg
+│           ├── contra_corriente.png
+│           ├── d.svg
+│           ├── divergentes.svg
+│           ├── el_espectador.svg
+│           ├── el_estornudo.png
+│           ├── gatopardo.svg
+│           ├── icfj.png
+│           ├── o.svg
+│           ├── pictun.jpg
+│           ├── pictun_m1.jpg
+│           ├── pictun_m2.jpg
+│           ├── pictun_m3.jpg
+│           ├── pictun_m4.jpg
+│           ├── piedepagina.png
+│           ├── revista_espejo.svg
+│           ├── social.jpg
+│           ├── t1.png
+│           ├── t2.png
+│           ├── t3.png
+│           ├── title_cover.png
+│           └── title_cover_bkp.png
+├── js
+│   ├── 360ImageRotate.min.js
+│   ├── BeerSlider.js
+│   ├── animation.velocity.js
+│   ├── authors.js
+│   ├── bootstrap.bundle.js
+│   ├── bootstrap.bundle.js.map
+│   ├── bootstrap.bundle.min.js
+│   ├── bootstrap.bundle.min.js.map
+│   ├── bootstrap.js
+│   ├── bootstrap.js.map
+│   ├── bootstrap.min.js
+│   ├── bootstrap.min.js.map
+│   ├── customizer.js
+│   ├── desterrados.js
+│   ├── divergentesv2.js
+│   ├── fixto.min.js
+│   ├── jarallax-0.2.4b.js
+│   ├── jarallax.min.js
+│   ├── jquery.change-cursor.js
+│   ├── jquery.parallax-scroll.js
+│   ├── jquery.resizeimagetoparent.min.js
+│   ├── jquery.slotmachine.js
+│   ├── jquery.slotmachine.min.js
+│   ├── lazyload.min.js
+│   ├── local-mc-validate.js
+│   ├── navigation.js
+│   ├── nosotros.js
+│   ├── popper.min.js
+│   ├── skrollr.min.js
+│   ├── slotmachine.js
+│   ├── slotmachine.min.js
+│   ├── swiper-bundle.min.js
+│   ├── swiper.min.js
+│   ├── vidbg.js
+│   ├── wow.min.js
+│   └── yall.min.js
+├── languages
+│   ├── divergentes.pot
+│   └── readme.txt
+├── package-lock.json
+├── package.json
+├── page-nosotros.php
+├── page-templates
+│   ├── bk
+│   │   ├── divergentes-covidnicaragua.php
+│   │   ├── divergentes-grancontratista-sub.php
+│   │   ├── divergentes-grancontratista-sub2.php
+│   │   ├── divergentes-grancontratista-sub3.php
+│   │   ├── divergentes-grancontratista-sub4.php
+│   │   ├── divergentes-grancontratista-sub5.php
+│   │   ├── divergentes-grancontratista.php
+│   │   ├── divergentes-home.php
+│   │   ├── divergentes-mujereshonduras.php
+│   │   ├── divergentes-tragedia4actos.php
+│   │   └── divergentes-vaciosabril.php
+│   ├── coronavirus-2020.php
+│   ├── divergentes-8m.php
+│   ├── divergentes-absurdosortega.php
+│   ├── divergentes-actoresclave.php
+│   ├── divergentes-alba.php
+│   ├── divergentes-aniversario-abril.php
+│   ├── divergentes-bajoacoso.php
+│   ├── divergentes-bukele-asalta-parlamento.php
+│   ├── divergentes-cancun.php
+│   ├── divergentes-covid2.php
+│   ├── divergentes-covidnicaragua.php
+│   ├── divergentes-crisiscr.php
+│   ├── divergentes-defensorascaribe.php
+│   ├── divergentes-democraciapapel.php
+│   ├── divergentes-depecosistema.php
+│   ├── divergentes-desterrados-eng.php
+│   ├── divergentes-desterrados.php
+│   ├── divergentes-ejercitoanalisis.php
+│   ├── divergentes-ejercitocostarica.php
+│   ├── divergentes-ejercitoelsalvador.php
+│   ├── divergentes-ejercitoguatemala.php
+│   ├── divergentes-ejercitohonduras.php
+│   ├── divergentes-ejercitonicaragua.php
+│   ├── divergentes-ejercitopanama.php
+│   ├── divergentes-entrevistaivan.php
+│   ├── divergentes-escombrosiota.php
+│   ├── divergentes-estudiantes.php
+│   ├── divergentes-exilio.php
+│   ├── divergentes-femicidios.php
+│   ├── divergentes-geografia-masacres.php
+│   ├── divergentes-grancontratista-sub.php
+│   ├── divergentes-grancontratista-sub2.php
+│   ├── divergentes-grancontratista-sub3.php
+│   ├── divergentes-grancontratista-sub4.php
+│   ├── divergentes-grancontratista-sub5.php
+│   ├── divergentes-grancontratista.php
+│   ├── divergentes-home-dev.php
+│   ├── divergentes-home.php
+│   ├── divergentes-home2.php
+│   ├── divergentes-independencia.php
+│   ├── divergentes-indigenas.php
+│   ├── divergentes-influenciasejercitos.php
+│   ├── divergentes-justiciatransicion.php
+│   ├── divergentes-justiciatransicional.php
+│   ├── divergentes-justiciavsimpunidad.php
+│   ├── divergentes-lgtb-costarica.php
+│   ├── divergentes-lgtb-nicaragua.php
+│   ├── divergentes-lgtb.php
+│   ├── divergentes-licitaciones-analisis.php
+│   ├── divergentes-licitaciones-favoritos.php
+│   ├── divergentes-licitaciones.php
+│   ├── divergentes-madres-exilio.php
+│   ├── divergentes-manual-represion.php
+│   ├── divergentes-mayagnas.php
+│   ├── divergentes-memoriajusticia.php
+│   ├── divergentes-mercenariosarmados.php
+│   ├── divergentes-mistica.php
+│   ├── divergentes-mujereshonduras.php
+│   ├── divergentes-nbukele.php
+│   ├── divergentes-ninasforzadas-costarica.php
+│   ├── divergentes-ninasforzadas-elsalvador.php
+│   ├── divergentes-ninasforzadas-guatemala.php
+│   ├── divergentes-ninasforzadas-home.php
+│   ├── divergentes-ninasforzadas-honduras.php
+│   ├── divergentes-ninasforzadas-intro.php
+│   ├── divergentes-ninasforzadas-nayibsalvador.php
+│   ├── divergentes-ninasforzadas-nicaragua.php
+│   ├── divergentes-ninasforzadas-panama.php
+│   ├── divergentes-obsesionortegamurillo.php
+│   ├── divergentes-pacniel-contenido.php
+│   ├── divergentes-panama.php
+│   ├── divergentes-presidenciables.php
+│   ├── divergentes-presosxretar-contenido.php
+│   ├── divergentes-presoxretar.php
+│   ├── divergentes-rebelion.php
+│   ├── divergentes-retomasacre.php
+│   ├── divergentes-secciones.php
+│   ├── divergentes-ser.php
+│   ├── divergentes-suscripcion.php
+│   ├── divergentes-tortugas.php
+│   ├── divergentes-trabajadorasdomesticas.php
+│   ├── divergentes-tragedia4actos.php
+│   ├── divergentes-vaciosabril.php
+│   ├── divergentes-vientoseta.php
+│   ├── divergentes-violenciaestadonicaragua.php
+│   ├── divergentes-violetagranera.php
+│   ├── divergentes-vocesnicaragua.php
+│   ├── divergentes-vocesvictimas.php
+│   ├── gran-contratista
+│   │   └── menu.php
+│   ├── ira-regis-eng.php
+│   ├── ira-regis.php
+│   ├── nunca-callar-activismo-destierro-eng.php
+│   ├── nunca-callar-activismo-destierro.php
+│   ├── resistencia-mons-alvarez-eng.php
+│   ├── resistencia-mons-alvarez.php
+│   ├── salon-clases-al-destierro-eng.php
+│   ├── salon-clases-al-destierro.php
+│   ├── vida-aspirantes-presidenciales-eng.php
+│   └── vida-aspirantes-presidenciales.php
+├── page.php
+├── phpcs.xml.dist
+├── project_wp_tree.txt
+├── readme.txt
+├── screenshot.png
+├── search.php
+├── sidebar.php
+├── single-divergencias.php
+├── single-entrevista.php
+├── single-semiespecial.php
+├── single.php
+├── style-rtl.css
+├── style.css
+├── tag-5.php
+├── template-parts
+│   ├── banner-suscribete.php
+│   ├── content-bk.php
+│   ├── content-divergencias.php
+│   ├── content-entrevista.php
+│   ├── content-none.php
+│   ├── content-opinion.php
+│   ├── content-page.php
+│   ├── content-search.php
+│   ├── content-semiespecial.php
+│   ├── content.php
+│   ├── internas
+│   │   ├── destacadas.php
+│   │   ├── trabajos-4-col-v2.php
+│   │   └── trabajos-4-col.php
+│   ├── newsletter.php
+│   └── subscribe.php
+└── vocesnicaragua
+    ├── css
+    │   ├── stories.css
+    │   └── style.css
+    ├── index.php
+    ├── js
+    │   ├── script.js
+    │   └── stories.js
+    ├── media
+    │   ├── images
+    │   │   ├── 0
+    │   │   │   └── 0_0.jpg
+    │   │   ├── 1
+    │   │   │   ├── 1_0.jpg
+    │   │   │   ├── 1_1.jpg
+    │   │   │   ├── 1_2.jpg
+    │   │   │   ├── 1_3.jpg
+    │   │   │   ├── 1_4.jpg
+    │   │   │   ├── 1_5.jpg
+    │   │   │   └── 1_6.jpg
+    │   │   ├── 100_noticias.svg
+    │   │   ├── 2
+    │   │   │   ├── 2_0.jpg
+    │   │   │   ├── 2_1.jpg
+    │   │   │   ├── 2_2.jpg
+    │   │   │   ├── 2_3.jpg
+    │   │   │   ├── 2_4.jpg
+    │   │   │   ├── 2_5.jpg
+    │   │   │   └── 2_6.jpg
+    │   │   ├── 3
+    │   │   │   ├── 3_0.jpg
+    │   │   │   ├── 3_1.jpg
+    │   │   │   ├── 3_2.jpg
+    │   │   │   ├── 3_3.jpg
+    │   │   │   ├── 3_4.jpg
+    │   │   │   ├── 3_5.jpg
+    │   │   │   └── 3_6.jpg
+    │   │   ├── 4
+    │   │   │   ├── 4_0.jpg
+    │   │   │   ├── 4_1.jpg
+    │   │   │   ├── 4_2.jpg
+    │   │   │   ├── 4_3.jpg
+    │   │   │   ├── 4_4.jpg
+    │   │   │   ├── 4_5.jpg
+    │   │   │   └── 4_6.jpg
+    │   │   ├── 5
+    │   │   │   ├── 5_0.jpg
+    │   │   │   ├── 5_1.jpg
+    │   │   │   ├── 5_2.jpg
+    │   │   │   ├── 5_3.jpg
+    │   │   │   ├── 5_4.jpg
+    │   │   │   ├── 5_5.jpg
+    │   │   │   └── 5_6.jpg
+    │   │   ├── 6
+    │   │   │   ├── 6_0.jpg
+    │   │   │   ├── 6_1.jpg
+    │   │   │   ├── 6_2.jpg
+    │   │   │   ├── 6_3.jpg
+    │   │   │   ├── 6_4.jpg
+    │   │   │   ├── 6_5.jpg
+    │   │   │   └── 6_6.jpg
+    │   │   ├── 7
+    │   │   │   ├── 7_0.jpg
+    │   │   │   ├── 7_1.jpg
+    │   │   │   ├── 7_2.jpg
+    │   │   │   ├── 7_3.jpg
+    │   │   │   ├── 7_4.jpg
+    │   │   │   ├── 7_5.jpg
+    │   │   │   └── 7_6.jpg
+    │   │   ├── 8
+    │   │   │   ├── 8_0.jpg
+    │   │   │   ├── 8_1.jpg
+    │   │   │   ├── 8_2.jpg
+    │   │   │   ├── 8_3.jpg
+    │   │   │   ├── 8_4.jpg
+    │   │   │   ├── 8_5.jpg
+    │   │   │   └── 8_6.jpg
+    │   │   ├── close.svg
+    │   │   ├── connectas_blanco.svg
+    │   │   ├── despacho_505.png
+    │   │   ├── divergentes.png
+    │   │   ├── fuentes_confiables.png
+    │   │   ├── home.svg
+    │   │   ├── informacion_puntual.png
+    │   │   ├── lupa.png
+    │   │   ├── main-logo.svg
+    │   │   ├── menu.svg
+    │   │   ├── next.svg
+    │   │   ├── nicaragua_investiga.png
+    │   │   ├── onda_local.png
+    │   │   ├── phones.svg
+    │   │   ├── prensa.svg
+    │   │   ├── social.jpg
+    │   │   └── voces_bg.jpg
+    │   └── video
+    ├── partials
+    │   ├── footer.php
+    │   ├── head.php
+    │   └── menu.php
+    └── stories
+        ├── i-represion-las-ideas-se-matan
+        │   └── index.html
+        ├── ii-reconstruccion-las-heridas-que-no-cierran
+        │   └── index.html
+        ├── iii-clausura-fuga-de-cerebros
+        │   └── index.html
+        └── iv-futuro-las-aulas-sandinistas
+            └── index.html
+
+91 directories, 1166 files

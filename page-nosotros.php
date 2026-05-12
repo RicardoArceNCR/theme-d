@@ -339,7 +339,7 @@ get_header();
               <a href="https://linkedin.com/in/francisco-centeno-dev" aria-label="LinkedIn" target="_blank" rel="noopener">in</a>
             </div>
           </div>
-          <h3 class="nos-card__name">Francisco Centeno</h3>
+          <h3 class="nos-card__name">Fran Zen</h3>
           <p class="nos-card__role">Desarrollador Full-Stack · Líder de Infraestructura</p>
           <p class="nos-card__bio">Gerente de TI y desarrollador full-stack con más de 10 años construyendo, manteniendo y asegurando plataformas digitales de alto tráfico, aplicaciones móviles y sistemas en tiempo real.</p>
           <span class="nos-card__location">Remoto</span>
