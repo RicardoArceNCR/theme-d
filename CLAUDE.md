@@ -266,60 +266,104 @@ Nunca mezclar responsabilidades.
 
 ---
 
-# REGLAS WORDPRESS
+---
 
-- no modificar Bootstrap global
-- no sobrescribir .container
-- no tocar body
-- no usar selectors globales
-- scopear con .nosotros-page o nos-*
+## PÁGINA NOSOTROS — assets y estructura JS
+
+Los assets de `page-nosotros.php` se cargan vía:
+`functions-page-nosotros.php` (incluido en functions.php con `require_once`)
+
+Ubicaciones correctas:
+```
+css/nosotros.css
+css/tokens-bridge.css
+js/nosotros.js
+js/authors.js
+```
 
 ---
 
-# Lo MÁS importante
+### Separación de responsabilidades JS
 
-Tu IA ahora mismo aprende por:
-- contexto reciente
-- archivos abiertos
-- instrucciones persistentes
+Los dos archivos JS tienen roles **distintos e interdependientes**. No son intercambiables.
 
-Entonces:
+| Archivo | Rol | Contiene |
+|---|---|---|
+| `js/authors.js` | **Datos** | `window.AUTHORS` — array con slug, nombre, foto, bio, redes, artículos de cada persona |
+| `js/nosotros.js` | **Comportamiento** | IntersectionObserver del sidenav, animación count-up del hero, inyección de fotos desde `window.AUTHORS` |
 
-# Sí.
+`nosotros.js` **depende** de `authors.js`. El orden de carga en `functions-page-nosotros.php` lo garantiza: `authors.js` se registra como dependencia del handle de `nosotros.js`.
 
-`CLAUDE.md` se vuelve memoria arquitectónica.
+**Regla:** Si agregas un campo nuevo a los datos de un autor, va en `authors.js`. Si agregas un comportamiento nuevo en la página, va en `nosotros.js`.
 
 ---
 
-# Mi recomendación REAL
+### Fuente de verdad: authors.js
 
-## Dejá:
+`window.AUTHORS` es la fuente de verdad del equipo. Cada persona tiene una entrada con este esquema:
 
-```txt
-CLAUDE.md
+```js
+{
+  slug: "nombre-apellido",          // debe coincidir con data-author-slug en PHP
+  name: "Nombre Completo",
+  role: "Cargo",
+  location: "País o región",
+  photo: "img/nosotros/nombre-apellido.webp",
+  short: "Resumen de una línea",
+  bio: ["Párrafo 1", "Párrafo 2"],
+  qualifications: ["Especialidad 1", "Especialidad 2"],
+  x: "handle_sin_arroba",
+  linkedin: "handle-linkedin",
+  articles: [
+    { date: "DD Mmm AAAA", section: "Sección", title: "Título del artículo" }
+  ]
+}
 ```
 
-solo como:
+---
 
-- pipeline
-- Figma export
-- build system
+### Regla: slug ≠ nombre real
 
-Y convertí:
+En algunos casos el `data-author-slug` del PHP **no coincide** con el nombre real de la persona (por cambios de identidad, pseudónimos editoriales, o archivos de foto existentes con nombre anterior).
 
-```txt
-CLAUDE.md
+Cuando esto ocurra, documentarlo en el encabezado de `page-nosotros.php` con este formato:
+
+```php
+* slug-en-uso   → nombre real: Nombre Real   (motivo: foto/pseudónimo/etc.)
 ```
 
-en:
+El slug nunca cambia una vez publicado — es la llave que conecta PHP con authors.js.
 
-"Reglas maestras del proyecto"
+---
 
-Porque ahí vivirá:
+### Regla: sincronizar el stat count del hero
 
-- cómo pensar
-- cómo nombrar
-- cómo estructurar
-- cómo usar tokens
-- cómo mapear Figma
-- cómo escribir CSS
+El hero de la página tiene tres contadores hardcodeados en PHP:
+
+```html
+<dd data-nos-count="15">   <!-- Integrantes -->
+<dd data-nos-count="6">    <!-- Áreas de trabajo -->
+<dd data-nos-count="12">   <!-- Premios internacionales -->
+```
+
+Estos **no se actualizan automáticamente**. Cada vez que se agrega o elimina una persona del roster, hay que actualizar `data-nos-count` en `page-nosotros.php` manualmente.
+
+---
+
+### Pendientes de datos (actualizar cuando estén listos)
+
+Personas con tarjeta en el PHP pero sin entrada completa en `authors.js`:
+
+```
+johanna-baca       → pendiente: entrada en authors.js
+jose-denis-cruz    → pendiente: entrada en authors.js
+paula-carrion      → pendiente: entrada en authors.js
+claudia-tijerino   → pendiente: entrada en authors.js (foto disponible)
+```
+
+Cuando se complete una entrada:
+1. Agregar objeto completo en `js/authors.js` 
+2. Verificar que el `slug` coincida exactamente con `data-author-slug` en el PHP
+3. Confirmar que el archivo de foto exista en `img/nosotros/` 
+4. Actualizar `data-nos-count` del hero si el número de integrantes cambia
+
