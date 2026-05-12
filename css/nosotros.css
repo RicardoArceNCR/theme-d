@@ -179,7 +179,7 @@
   left: 0;
   top: 0;
   width: 28px;
-  height: 2px;
+  height: 3px;
   background: var(--brand-main);
   transform: scaleX(0);
   transform-origin: left center;
