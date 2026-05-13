@@ -125,6 +125,57 @@
         }
       });
     }
+
+    // ── HERO: grid background con máscara cursor ──────────────────────
+    var heroSection = document.getElementById('nos-hero-bg');
+    var heroMask    = document.getElementById('nos-hero-mask');
+
+    if (heroSection && heroMask) {
+      var hx = 50, hy = 50;   // posición actual (interpolada)
+      var tx = 50, ty = 50;   // posición destino
+      var heroRaf = null;
+      var heroActive = false;
+
+      var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      if (!prefersReducedMotion) {
+
+        var lerp = function(a, b, t) { return a + (b - a) * t; };
+
+        var updateMask = function() {
+          hx = lerp(hx, tx, 0.09);
+          hy = lerp(hy, ty, 0.09);
+          heroMask.style.webkitMaskImage =
+            'radial-gradient(circle 180px at ' + hx + '% ' + hy + '%, transparent 0%, black 100%)';
+          heroMask.style.maskImage =
+            'radial-gradient(circle 180px at ' + hx + '% ' + hy + '%, transparent 0%, black 100%)';
+          heroRaf = window.requestAnimationFrame(updateMask);
+        };
+
+        heroSection.addEventListener('mousemove', function(e) {
+          var r = heroSection.getBoundingClientRect();
+          tx = ((e.clientX - r.left) / r.width)  * 100;
+          ty = ((e.clientY - r.top)  / r.height) * 100;
+
+          if (!heroActive) {
+            heroActive = true;
+            heroRaf = window.requestAnimationFrame(updateMask);
+          }
+        });
+
+        heroSection.addEventListener('mouseleave', function() {
+          tx = 50; ty = 50;
+        });
+
+        heroSection.addEventListener('touchmove', function(e) {
+          var touch = e.touches[0];
+          var r = heroSection.getBoundingClientRect();
+          tx = ((touch.clientX - r.left) / r.width)  * 100;
+          ty = ((touch.clientY - r.top)  / r.height) * 100;
+        }, { passive: true });
+      }
+    }
+    // ── /HERO: grid background ─────────────────────────────────────────
   });
 
 })();

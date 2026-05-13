@@ -156,6 +156,55 @@
   color: var(--text-color-primary); margin: 0; line-height: 1;
 }
 
+/* ─── HERO: grid background con máscara cursor ──────────────────────── */
+.nos-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.nos-hero__bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.nos-hero__bg-grid {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  color: var(--border-subtle);
+  opacity: 0.55;
+}
+
+.nos-hero__bg-mask {
+  position: absolute;
+  inset: 0;
+  background: var(--background-page);
+  mask-image: radial-gradient(circle 180px at 50% 50%, transparent 0%, black 100%);
+  -webkit-mask-image: radial-gradient(circle 180px at 50% 50%, transparent 0%, black 100%);
+}
+
+.nos-hero__grid {
+  position: relative;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .nos-hero__bg-mask {
+    mask-image: radial-gradient(circle 0px at 50% 50%, transparent 0%, black 100%);
+    -webkit-mask-image: radial-gradient(circle 0px at 50% 50%, transparent 0%, black 100%);
+  }
+}
+
+@media (max-width: 768px) {
+  .nos-hero__bg-mask {
+    mask-image: radial-gradient(circle 120px at 50% 30%, transparent 0%, black 100%);
+    -webkit-mask-image: radial-gradient(circle 120px at 50% 30%, transparent 0%, black 100%);
+  }
+}
+
 /* ─── HERO STATS: Data reveal editorial ─────────────────────────────────── */
 
 .nos-stat {

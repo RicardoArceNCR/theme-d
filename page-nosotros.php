@@ -31,7 +31,26 @@ get_header();
 ════════════════════════════════════════════════════════════════════════ -->
 
 <!-- ── HERO ──────────────────────────────────────────────────────────── -->
-<section class="nos-hero">
+<section class="nos-hero" id="nos-hero-bg">
+
+  <!-- ── GRID BACKGROUND ── -->
+  <div class="nos-hero__bg" aria-hidden="true">
+    <svg class="nos-hero__bg-grid" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="nos-grid-pat" x="0" y="0" width="76" height="76" patternUnits="userSpaceOnUse">
+          <path d="M 76 0 L 0 0 0 76" fill="none" stroke="currentColor" stroke-width="2"/>
+          <circle cx="0"  cy="0"  r="1.3" fill="currentColor"/>
+          <circle cx="76" cy="0"  r="1.3" fill="currentColor"/>
+          <circle cx="0"  cy="76" r="1.3" fill="currentColor"/>
+          <circle cx="76" cy="76" r="1.3" fill="currentColor"/>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#nos-grid-pat)"/>
+    </svg>
+    <div class="nos-hero__bg-mask" id="nos-hero-mask"></div>
+  </div>
+  <!-- ── /GRID BACKGROUND ── -->
+
   <div class="nos-hero__grid">
     <div>
       <p class="nos-hero__eyebrow">— Nosotros</p>
