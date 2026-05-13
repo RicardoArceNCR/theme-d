@@ -21,6 +21,10 @@
   --finance-strip-bg:         var(--color-brand-navy-950);
   --finance-logo-color:       var(--brand-main);
 
+  /* Selection tokens */
+  --selection-bg:             var(--color-brand-green-400);
+  --selection-color:          var(--color-brand-navy-950);
+
   /* Espaciado local — shorthands para esta página */
   --sp-1:  var(--space-xs);
   --sp-2:  var(--space-sm);
@@ -33,6 +37,12 @@
   --sp-10: 40px;
   --sp-12: var(--space-2xl);
   --sp-16: var(--space-3xl);
+}
+
+/* ─── SELECTION STYLING ───────────────────────────────────────────────────── */
+.nosotros-page ::selection {
+  background-color: var(--selection-bg);
+  color:            var(--selection-color);
 }
 
 /* ─── RESET SCOPED A .nosotros-page ────────────────────────────────────────
