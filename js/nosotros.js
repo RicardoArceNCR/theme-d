@@ -92,9 +92,14 @@
         threshold: 0.45
       });
 
-      document.querySelectorAll('.nos-stat').forEach(function (stat) {
-        statsObserver.observe(stat);
-      });
+      // Esperar que termine la secuencia de entrada del hero (~1300ms)
+      var heroDuration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 1760;
+
+      window.setTimeout(function() {
+        document.querySelectorAll('.nos-stat').forEach(function (stat) {
+          statsObserver.observe(stat);
+        });
+      }, heroDuration);
     }
 
     // Inyectar fotos desde window.AUTHORS
@@ -176,6 +181,54 @@
       }
     }
     // ── /HERO: grid background ─────────────────────────────────────────
+
+    // ── LENS CURSOR (comentar bloque completo para desactivar) ────────
+    var lensWrap  = document.getElementById('nos-lens-wrap');
+    var cursorDot = document.getElementById('nos-cursor-dot');
+    var lensHero  = document.getElementById('nos-hero-bg');
+
+    if (lensWrap && cursorDot && lensHero) {
+      var prefersNoMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var hasHover        = window.matchMedia('(hover: hover)').matches;
+
+      if (!prefersNoMotion && hasHover) {
+        var llx = 0, lly = 0, ltx = 0, lty = 0;
+        var lensRafActive = false;
+
+        var lensLerp = function(a, b, t) { return a + (b - a) * t; };
+
+        var lensTick = function() {
+          llx = lensLerp(llx, ltx, 0.28);
+          lly = lensLerp(lly, lty, 0.28);
+          lensWrap.style.left  = llx + 'px';
+          lensWrap.style.top   = lly + 'px';
+          cursorDot.style.left = llx + 'px';
+          cursorDot.style.top  = lly + 'px';
+          window.requestAnimationFrame(lensTick);
+        };
+
+        document.addEventListener('mousemove', function(e) {
+          ltx = e.clientX;
+          lty = e.clientY;
+          if (!lensRafActive) {
+            lensRafActive = true;
+            window.requestAnimationFrame(lensTick);
+          }
+        });
+
+        lensHero.addEventListener('mouseenter', function() {
+          lensWrap.classList.add('is-visible');
+          cursorDot.classList.add('is-visible');
+        });
+
+        lensHero.addEventListener('mouseleave', function() {
+          lensWrap.classList.remove('is-visible');
+          cursorDot.classList.remove('is-visible');
+        });
+      }
+    }
+    // ── /LENS CURSOR ──────────────────────────────────────────────────
+
   });
 
 })();
